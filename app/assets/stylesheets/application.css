@@ -1,0 +1,144 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* Option #1 */
+
+body {
+  background-image: url("bg.jpg");
+}
+
+/*body {
+  background-image: url("bg2.jpg");
+}*/
+
+.logo-text {
+  position: absolute;
+  font-family: "Palatino Linotype";
+  font-size: 27px;
+  text-align: center;
+  top: 10px;
+  left: 65px;
+  line-height: 90%;
+  z-index: 0;
+}
+
+.logo-img {
+  position: absolute;
+  top: -100px;
+  left: -55px;
+  z-index: -1;
+}
+
+.logo {
+  padding-right: 1450px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 13.5em 3em;
+    padding: 0;
+}
+
+.supertherm {
+  position: absolute;
+  top: 165px;
+  left: 580px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.rustgrip {
+  position: absolute;
+  top: 165px;
+  left: 975px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.hot-pipe {
+  position: absolute;
+  top: 165px;
+  left: 1280px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.product-database {
+  position: absolute;
+  top: 168px;
+  left: 1740px;
+}
+
+.pd {
+  color: red !important;
+}
+
+.magnifying-glass {
+  position: absolute;
+  top: 65px;
+  left: 1740px;
+}
+
+.thermal-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 250px;
+  box-shadow: 19px 19px 30px 5px;
+}
+
+.corrosion-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 760px;
+  box-shadow: 19px 19px 30px 5px;
+}
+
+.fire-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 1270px;
+  box-shadow: 19px 19px 30px 5px;
+  }
+
+.intro {
+  position: absolute;
+  top: 710px;
+  margin: 0px 25px 0px 25px;
+  text-align: center;
+  font-size: 38px;
+  line-height: 150%;
+}
+
+.phone {
+  position: absolute;
+  top: 930px;
+  left: 920px;
+}
