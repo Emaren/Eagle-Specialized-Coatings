@@ -16,30 +16,42 @@
 
 /* Option #1 */
 
-body {
-  background-image: url("bg.jpg");
+/*body {
+  background-image: url("brown.png");
+}*/
+
+.container {
+  padding: 10px 10px 10px 10px;
 }
 
-/*body {
+body {
   background-image: url("bg2.jpg");
-}*/
+}
 
 .logo-text {
   position: absolute;
-  font-family: "Palatino Linotype";
+  font-family: cursive;;
   font-size: 27px;
   text-align: center;
   top: 10px;
-  left: 65px;
+  left: 70px;
   line-height: 90%;
+  color: black;
   z-index: 0;
 }
 
 .logo-img {
   position: absolute;
   top: -100px;
-  left: -55px;
+  left: -75px;
   z-index: -1;
+}
+
+.logo-img2 {
+  position: absolute;
+  top: -100px;
+  left: -75px;
+  z-index: -2;
 }
 
 .logo {
@@ -51,7 +63,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid black;
-    margin: 13.5em 3em;
+    margin: 12em 3em;
     padding: 0;
 }
 
@@ -103,7 +115,28 @@ hr {
   position: absolute;
   top: 325px;
   left: 250px;
-  box-shadow: 19px 19px 30px 5px;
+  box-shadow: 10px 10px 50px 5px;
+}
+
+.thermal-img {
+  position: absolute;
+  top: 380px;
+  left: 251px;
+  z-index: 5;
+}
+
+.corrosion-img {
+  position: absolute;
+  top: 380px;
+  left: 761px;
+  z-index: 5;
+}
+
+.fire-img {
+  position: absolute;
+  top: 380px;
+  left: 1271px;
+  z-index: 5;
 }
 
 .corrosion-box {
@@ -114,7 +147,7 @@ hr {
   position: absolute;
   top: 325px;
   left: 760px;
-  box-shadow: 19px 19px 30px 5px;
+  box-shadow: 10px 10px 50px 5px;
 }
 
 .fire-box {
@@ -125,20 +158,159 @@ hr {
   position: absolute;
   top: 325px;
   left: 1270px;
-  box-shadow: 19px 19px 30px 5px;
+  box-shadow: 10px 10px 50px 5px;
   }
 
 .intro {
   position: absolute;
   top: 710px;
-  margin: 0px 25px 0px 25px;
+  margin: 0px 100px 0px 100px;
   text-align: center;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 150%;
+  font-weight: 300;
+  color: grey;
+  color: black;
+
+  /*text-shadow:
+ -1px -1px 0 white,
+  1px -1px 0 grey,
+  -1px 1px 0 grey,
+   1px 1px 0 grey;*/
 }
 
 .phone {
   position: absolute;
-  top: 930px;
-  left: 920px;
+  top: 856px;
+  left: 913px;
+}
+
+.chat {
+  position: absolute;
+  top: 1000px;
+  left: 1730px;
+  color: #d0e4fe;
+}
+
+.about {
+  position: absolute;
+  top: 1030px;
+  left: 1230px;
+}
+
+.email {
+  position: absolute;
+  top: 1028px;
+  left: 1145px;
+}
+
+.facebook {
+  position: absolute;
+  top: 1030px;
+  left: 1063px;
+}
+
+.tw {
+  position: absolute;
+  top: 1030px;
+  left: 977px;
+}
+
+.youtube {
+  position: absolute;
+  top: 1030px;
+  left: 890px;
+}
+
+.links {
+  position: absolute;
+  top: 1030px;
+  left: 807px;
+}
+
+.contractors {
+  position: absolute;
+  top: 1030px;
+  left: 719px;
+}
+
+.pay {
+  position: absolute;
+  top: 1030px;
+  left: 630px;
+}
+
+.thermal-img-title {
+  position: absolute;
+  top: 340px;
+  left: 370px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.thermal-white {
+  position: absolute;
+  top: 326px;
+  left: 251px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.corrosion-img-title {
+  position: absolute;
+  top: 340px;
+  left: 861px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.corrosion-white {
+  position: absolute;
+  top: 326px;
+  left: 761px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.fire-white {
+  position: absolute;
+  top: 326px;
+  left: 1271px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.fire-img-title {
+  position: absolute;
+  top: 340px;
+  left: 1430px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.play-thermal {
+  position: absolute;
+  top: 460px;
+  left: 392px;
+  z-index: 20;
+}
+
+.play-corrosion {
+  position: absolute;
+  top: 460px;
+  left: 910px;
+  z-index: 20;
+}
+
+.play-fire {
+  position: absolute;
+  top: 460px;
+  left: 1425px;
+  z-index: 20;
 }
