@@ -1,0 +1,134 @@
+<!-- Header -->
+
+<div class="container"><div class="logo"> <a href="/" class="logo-text-link"><h1 class="logo-text">
+    Eagle Specialized Coatings
+    <br><br>
+    &
+    <br><br>
+    Protected Environments
+    </a>
+    <div class="logo-img">
+      <%= link_to image_tag("eagle_vanacal.png", height: "340px", width: "440px"), root_path %>
+    </div>
+    <div class="logo-img2">
+      <%= link_to image_tag("eagle_vanacalbl.png", height: "340px", width: "440px"), root_path %>
+    </div>
+  </h1>
+</div>
+
+<div class="supertherm">
+  <%= link_to "SuperTHERM®", products_supertherm_path %>
+</div>
+
+<div class="rustgrip">
+  <%= link_to "RustGRIP®", products_rustgrip_path %>
+</div>
+
+<div class="hot-pipe">
+  <%= link_to "Hot-Pipe COATING®", products_hotpipe_path %>
+</div>
+
+<div class="product-database">
+  <%= image_tag "product_database_grey.png", height: "40px", width: "40px" %>
+</div>
+
+<div class="magnifying-glass">
+  <%= image_tag "mg.png", height: "40px", width: "40px" %>
+</div>
+
+<hr>
+
+
+
+
+<!-- Footer -->
+
+  <div class="phone">
+    <%= link_to image_tag "phone.png", height: "90px", width: "90px" %>
+  </div>
+
+
+<script>
+
+$.fn.animateRotate = function(angle,prevAngle, duration, easing, complete) {
+    var args = $.speed(duration, easing, complete);
+    var step = args.step;
+    return this.each(function(i, e) {
+        args.complete = $.proxy(args.complete, e);
+        args.step = function(now) {
+            $.style(e, 'transform', 'rotate(' + now + 'deg)');
+            if (step) return step.apply(e, arguments);
+        };
+
+        $({deg: prevAngle}).animate({deg: angle}, args);
+    });
+};
+var angle = 0;
+var prevAngle = 0
+
+
+$(".phone").mouseenter(function(e) {
+    // prevAngle = angle
+    // angle -=360;
+    // $(this).animateRotate(angle, prevAngle, 1000);
+    // e.preventDefault();
+    $(this).animate({
+      left: "800px",
+      opacity: 1
+    }, {
+      duration: 1000,
+      queue: false
+    });
+});
+$(".phone").mouseleave(function(e) {
+  prevAngle = angle
+  angle +=360;
+  $(this).animateRotate(angle, prevAngle, 1000);
+  e.preventDefault();
+  $(this).animate({
+    left: "900px",
+    opacity: 1
+    }, {
+      duration: 1000,
+      queue: false
+    });
+  });
+
+</script>
+
+
+  <div class="chat">
+    <%= image_tag "chat.png", height: "44px", width: "44px" %>
+  </div>
+
+  <div class="about">
+    <%= image_tag "about.png", height: "50px", width: "50px" %>
+  </div>
+
+  <div class="email">
+    <%= image_tag "email.png", height: "55px", width: "55px" %>
+  </div>
+
+  <div class="facebook">
+    <%= image_tag "facebook.png", height: "52px", width: "52px" %>
+  </div>
+
+  <div class="tw">
+    <%= image_tag "tw.png", height: "54px", width: "54px" %>
+  </div>
+
+  <div class="youtube">
+    <%= image_tag "youtube.png", height: "53px", width: "53px" %>
+  </div>
+
+  <div class="links">
+    <%= image_tag "links.png", height: "52px", width: "52px" %>
+  </div>
+
+  <div class="contractors">
+    <%= image_tag "certcontr.png", height: "55px", width: "55px" %>
+  </div>
+
+  <div class="pay">
+    <%= image_tag "pay.png", height: "53px", width: "53px" %>
+  </div></div>

@@ -28,6 +28,23 @@ body {
   background-image: url("bg2.jpg");
 }
 
+.logo-text-link {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-text a {
+  text-decoration: none;
+}
+
 .logo-text {
   position: absolute;
   font-family: cursive;;
@@ -73,6 +90,7 @@ hr {
   left: 580px;
   font-size: 30px;
   font-style: italic;
+  text-decoration: none;
 }
 
 .rustgrip {
@@ -81,6 +99,7 @@ hr {
   left: 975px;
   font-size: 30px;
   font-style: italic;
+  text-decoration: none;
 }
 
 .hot-pipe {
@@ -89,12 +108,14 @@ hr {
   left: 1280px;
   font-size: 30px;
   font-style: italic;
+  text-decoration: none;
 }
 
 .product-database {
   position: absolute;
-  top: 168px;
-  left: 1740px;
+  top: 165px;
+  left: 1800px;
+
 }
 
 .pd {
@@ -104,7 +125,7 @@ hr {
 .magnifying-glass {
   position: absolute;
   top: 65px;
-  left: 1740px;
+  left: 1800px;
 }
 
 .thermal-box {
@@ -185,10 +206,13 @@ hr {
   left: 913px;
 }
 
+
+
+
 .chat {
   position: absolute;
   top: 1000px;
-  left: 1730px;
+  left: 1790px;
   color: #d0e4fe;
 }
 
