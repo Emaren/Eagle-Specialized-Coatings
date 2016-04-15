@@ -1,7 +1,9 @@
 
-
   <div class="thermal-box"></div>
   <div class="thermal-img"><%= image_tag "supertherm.jpg", height: "247px", width: "375px" %></div>
+  <div class="thermal-vid">
+    <%= video_tag "SuperTHERM.mp4", height: "246px", width: "375px", :controls => false %>
+  </div>
   <div class="thermal-white"></div>
   <div class="thermal-img-title">
     Thermal
@@ -10,6 +12,14 @@
 
   <div class="corrosion-box"></div>
   <div class="corrosion-img"><%= image_tag "co.jpg", height: "247px", width: "375px" %></div>
+  <div class="corrosion-vid">
+    <!-- <%= videojs_rails sources: { mp4: "SuperTHERM.mp4", webm: "Corrosion.mp4"}, setup: "{}", controls: true, width:"400" %> -->
+
+    <%= video_tag "Corrosion.mp4", height: "430px", width: "375px", :controls => false %>
+  </div>
+
+
+
   <div class="corrosion-white"></div>
   <div class="corrosion-img-title">
     Corrosion
@@ -21,6 +31,10 @@
   <div class="fire-white"></div>
   <div class="fire-img-title">
     Fire
+  </div>
+  <div class="fire-vid">
+    <!-- <%= videojs_rails sources: { mp4: "hpc.mp4", webm: "hpc.mp4"}, setup: "{}", controls: true, width:"400" %> -->
+    <%= video_tag "hpc.mp4", height: "553px", width: "374px", :controls => false %>
   </div>
   <div class="play-fire"><%= image_tag "play.png", height: "80px", width: "80px" %></div>
 

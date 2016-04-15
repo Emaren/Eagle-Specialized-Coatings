@@ -1,3 +1,118 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.tds {
+  position: absolute;
+  top: 260px;
+  left: 240px;
+  &:hover {
+    filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+  }
+}
+
+.tds-text {
+  position: absolute;
+  top: 273px;
+  left: 310px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(96, 96, 96);
+  &:hover {
+    color: darken(#f1c40f, 5%);
+    transition: 0.5s;
+  }
+}
+
+
+
+
+.certifications {
+  position: absolute;
+  top: 256px;
+  left: 530px;
+}
+
+.certifications-text {
+  position: absolute;
+  top: 282px;
+  left: 605px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(96, 96, 96);
+}
+
+
+.project-pictures {
+  position: absolute;
+  top: 266px;
+  left: 815px;
+}
+
+.project-pictures-text {
+  position: absolute;
+  top: 282px;
+  left: 900px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(96, 96, 96);
+}
+
+
+.project-videos {
+  position: absolute;
+  top: 266px;
+  left: 1110px;
+}
+
+.project-videos-text {
+  position: absolute;
+  top: 282px;
+  left: 1179px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(96, 96, 96);
+}
+
+
+.application-instructions {
+  position: absolute;
+  top: 260px;
+  left: 1385px;
+}
+
+.application-instructions-text {
+  position: absolute;
+  top: 282px;
+  left: 1463px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(96, 96, 96);
+}
+
+
+
+.supertherm-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 425px;
+  left: 250px;
+  box-shadow: 10px 10px 50px 5px;
+}
+
+.supertherm-box img {
+  height: 200px;
+  width: 275px;
+  position: relative;
+  top: 45px;
+  left: 45px;
+}

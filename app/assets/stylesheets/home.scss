@@ -1,3 +1,180 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.thermal-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 250px;
+  box-shadow: 10px 10px 50px 5px;
+}
+
+.thermal-img {
+  position: absolute;
+  top: 380px;
+  left: 251px;
+  z-index: 5;
+}
+
+.thermal-vid {
+  position: absolute;
+  top: 381px;
+  left: 251px;
+  height: 10px;
+  z-index: 0;
+}
+
+.corrosion-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 760px;
+  box-shadow: 10px 10px 50px 5px;
+}
+
+.corrosion-img {
+  position: absolute;
+  top: 380px;
+  left: 761px;
+  z-index: 5;
+}
+
+.corrosion-vid {
+  position: absolute;
+  top: 285px;
+  left: 761px;
+  z-index: 0;
+}
+
+.fire-img {
+  position: absolute;
+  top: 380px;
+  left: 1271px;
+  z-index: 5;
+}
+
+
+.fire-box {
+  border: 1px solid black;
+  /*border-radius: 5px;*/
+  height: 300px;
+  width: 375px;
+  position: absolute;
+  top: 325px;
+  left: 1270px;
+  box-shadow: 10px 10px 50px 5px;
+  }
+
+.fire-vid {
+  position: absolute;
+  top: 245px;
+  left: 1270px;
+  z-index: 0;
+}
+
+.intro {
+  position: absolute;
+  top: 710px;
+  margin: 0px 100px 0px 100px;
+  text-align: center;
+  font-size: 27px;
+  line-height: 150%;
+  font-weight: 300;
+  color: grey;
+  color: black;
+  font-family: 'Raleway';
+  /*text-shadow:
+ -1px -1px 0 white,
+  1px -1px 0 grey,
+  -1px 1px 0 grey,
+   1px 1px 0 grey;*/
+}
+
+.phone {
+  position: absolute;
+  top: 856px;
+  left: 915px;
+}
+
+
+.thermal-img-title {
+  position: absolute;
+  top: 340px;
+  left: 370px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.thermal-white {
+  position: absolute;
+  top: 326px;
+  left: 251px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.corrosion-img-title {
+  position: absolute;
+  top: 340px;
+  left: 861px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.corrosion-white {
+  position: absolute;
+  top: 326px;
+  left: 761px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.fire-white {
+  position: absolute;
+  top: 326px;
+  left: 1271px;
+  background-color: white;
+  height: 55px;
+  width: 375px;
+}
+
+.fire-img-title {
+  position: absolute;
+  top: 340px;
+  left: 1430px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.play-thermal {
+  position: absolute;
+  top: 460px;
+  left: 392px;
+  z-index: 20;
+}
+
+.play-corrosion {
+  position: absolute;
+  top: 460px;
+  left: 910px;
+  z-index: 20;
+}
+
+.play-fire {
+  position: absolute;
+  top: 460px;
+  left: 1425px;
+  z-index: 20;
+}

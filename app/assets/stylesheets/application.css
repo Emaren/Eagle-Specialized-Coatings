@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require video-js
  */
 
 /* Option #1 */
@@ -89,17 +90,26 @@ hr {
   top: 165px;
   left: 580px;
   font-size: 30px;
-  font-style: italic;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.supertherm:hover {
+  font-weight: bold;
+  color: #0c1fc7;
 }
 
 .rustgrip {
   position: absolute;
   top: 165px;
-  left: 975px;
+  left: 960px;
   font-size: 30px;
-  font-style: italic;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rustgrip:hover {
+  font-weight: bold;
 }
 
 .hot-pipe {
@@ -107,8 +117,12 @@ hr {
   top: 165px;
   left: 1280px;
   font-size: 30px;
-  font-style: italic;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hot-pipe:hover {
+  font-weight: bold;
 }
 
 .product-database {
@@ -128,86 +142,17 @@ hr {
   left: 1800px;
 }
 
-.thermal-box {
+.search-box {
+  position: absolute;
+  top: 65px;
+  left: 1475px;
+  height: 40px;
+  width: 300px;
   border: 1px solid black;
-  /*border-radius: 5px;*/
-  height: 300px;
-  width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 250px;
-  box-shadow: 10px 10px 50px 5px;
+  border-radius: 15px;
+  background-color: white;
+  display: none;
 }
-
-.thermal-img {
-  position: absolute;
-  top: 380px;
-  left: 251px;
-  z-index: 5;
-}
-
-.corrosion-img {
-  position: absolute;
-  top: 380px;
-  left: 761px;
-  z-index: 5;
-}
-
-.fire-img {
-  position: absolute;
-  top: 380px;
-  left: 1271px;
-  z-index: 5;
-}
-
-.corrosion-box {
-  border: 1px solid black;
-  /*border-radius: 5px;*/
-  height: 300px;
-  width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 760px;
-  box-shadow: 10px 10px 50px 5px;
-}
-
-.fire-box {
-  border: 1px solid black;
-  /*border-radius: 5px;*/
-  height: 300px;
-  width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 1270px;
-  box-shadow: 10px 10px 50px 5px;
-  }
-
-.intro {
-  position: absolute;
-  top: 710px;
-  margin: 0px 100px 0px 100px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 150%;
-  font-weight: 300;
-  color: grey;
-  color: black;
-
-  /*text-shadow:
- -1px -1px 0 white,
-  1px -1px 0 grey,
-  -1px 1px 0 grey,
-   1px 1px 0 grey;*/
-}
-
-.phone {
-  position: absolute;
-  top: 856px;
-  left: 913px;
-}
-
-
-
 
 .chat {
   position: absolute;
@@ -264,77 +209,19 @@ hr {
   left: 630px;
 }
 
-.thermal-img-title {
-  position: absolute;
-  top: 340px;
-  left: 370px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
 }
-
-.thermal-white {
-  position: absolute;
-  top: 326px;
-  left: 251px;
-  background-color: white;
-  height: 55px;
-  width: 375px;
-}
-
-.corrosion-img-title {
-  position: absolute;
-  top: 340px;
-  left: 861px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
-}
-
-.corrosion-white {
-  position: absolute;
-  top: 326px;
-  left: 761px;
-  background-color: white;
-  height: 55px;
-  width: 375px;
-}
-
-.fire-white {
-  position: absolute;
-  top: 326px;
-  left: 1271px;
-  background-color: white;
-  height: 55px;
-  width: 375px;
-}
-
-.fire-img-title {
-  position: absolute;
-  top: 340px;
-  left: 1430px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
-}
-
-.play-thermal {
-  position: absolute;
-  top: 460px;
-  left: 392px;
-  z-index: 20;
-}
-
-.play-corrosion {
-  position: absolute;
-  top: 460px;
-  left: 910px;
-  z-index: 20;
-}
-
-.play-fire {
-  position: absolute;
-  top: 460px;
-  left: 1425px;
-  z-index: 20;
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
 }
