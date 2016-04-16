@@ -99,9 +99,23 @@
 
 .phone {
   position: absolute;
-  top: 856px;
+  top: 849px;
   left: 915px;
+  cursor: pointer;
+  z-index: 100;
 }
+
+.phone-number {
+  position: absolute;
+  top: 872px;
+  left: 900px;
+  display: none;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-size: 28px;
+  color: rgb(68, 69, 67);
+}
+
 
 
 .thermal-img-title {

@@ -28,9 +28,111 @@
     <%= link_to "Hot-Pipe COATING®", products_hotpipe_path %>
   </div>
 
-  <div class="product-database">
-    <%= image_tag "product_database_grey.png", height: "40px", width: "40px" %>
+
+
+
+  <div class="database-layer">
+    <%= image_tag "layer1b.png", size: "55x55" %>
   </div>
+  <div class="database-layer2">
+    <%= image_tag "layer2.png", size: "55x55" %>
+  </div>
+  <div class="database-layer3">
+    <%= image_tag "layer3.png", size: "55x55" %>
+  </div>
+</div>
+  <div class="databaselayer-container"><div class="databaselayer">
+    <%= image_tag "product_database_grey.png", size: "38x46" %>
+</div>
+
+<!-- <img class="xyz" data-alt-src="/assets/product_database_grey.png" src="/assets/layer2.png" height="46px" width="38px"/>
+<script type="text/javascript">
+var sourceSwap = function () {
+  var $this = $(this);
+  var newSource = $this.data('alt-src');
+  $this.data('alt-src', $this.attr('src'));
+  $this.attr('src', newSource);
+}
+$(function () {
+  $('img.xyz').hover(sourceSwap, sourceSwap);
+});
+</script> -->
+
+<script type="text/javascript">
+
+$( ".databaselayer" ).mouseenter(function() {
+  $( ".database-layer3" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $( ".database-layer2" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $( ".database-layer" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $(this).hide()
+});
+$( ".databaselayer" ).mouseleave(function() {
+  $( ".database-layer3" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $( ".database-layer2" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $( ".database-layer" ).animate({
+    opacity: "toggle"
+  }, 5000, "linear")
+  $(this).show()
+});
+</script>
+
+  <!-- <script type="text/javascript">
+  $(".databaselayer").mouseenter(function() {
+
+      $(".databaselayer").fadeOut({
+      }, {
+        duration: 500,
+      });
+
+      $('.database-layer').fadeIn({queue: false, duration: 'slow'});
+      $('.database-layer2').fadeIn({queue: false, duration: 'slow'});
+      $('.database-layer3').fadeIn({queue: false, duration: 'slow'});
+      $('.database-layer').animate({ up: "+=10px" }, 'slow');
+      $('.database-layer2').animate({ left: "-=10px" }, 'slow');
+      $('.database-layer3').animate({ up: "-=10px" }, 'slow');
+      $(".database-layer2").fadeIn({
+      }, {
+        duration: 500,
+      });
+      $(".database-layer3").fadeIn({
+      }, {
+        duration: 500,
+      });
+  });
+  $(".databaselayer").mouseleave(function() {
+
+      // $(this).fadeIn({
+      // }, {
+      //   duration: 500,
+      // });
+      $(".database-layer").fadeOut({
+      }, {
+        duration: 500,
+      });
+      $(".database-layer2").fadeOut({
+      }, {
+        duration: 500,
+      });
+      $(".database-layer3").fadeOut({
+      }, {
+        duration: 500,
+      });
+      $(".databaselayer").fadeIn({
+      }, {
+        duration: 500,
+      });
+  });
+  </script> -->
 
   <div class="magnifying-glass">
     <%= link_to image_tag "mg.png", height: "40px", width: "40px" %>
@@ -68,20 +170,16 @@
     </script>
     <div class="search-box">
     </div>
-    <script>
-$( document ).click(function() {
-  $( ".search-box" ).toggle({ effect: "box", direction: "vertical" });
-});
-</script>
-<hr>
 
+<hr>
 
 
 
   <!-- Footer -->
 
+
   <div class="phone">
-    <%= link_to image_tag "phone.png", height: "90px", width: "90px" %>
+    <%= link_to image_tag "phonenew.png", height: "90px", width: "90px" %>
   </div>
     <script>
       $.fn.animateRotate = function(angle,prevAngle, duration, easing, complete) {
@@ -98,14 +196,14 @@ $( document ).click(function() {
           });
       };
       var angle = 0;
-      var prevAngle = 0
+      var prevAngle = 0;
 
 
       $(".phone").mouseenter(function(e) {
-          // prevAngle = angle
-          // angle -=360;
-          // $(this).animateRotate(angle, prevAngle, 1000);
-          // e.preventDefault();
+          prevAngle = angle
+          angle -= 100;
+          $(this).animateRotate(angle, prevAngle, 500);
+          e.preventDefault();
           $(this).animate({
             left: "800px",
             opacity: 1
@@ -116,24 +214,44 @@ $( document ).click(function() {
       });
       $(".phone").mouseleave(function(e) {
         prevAngle = angle
-        angle +=360;
-        $(this).animateRotate(angle, prevAngle, 1000);
+        angle += 100;
+        $(this).animateRotate(angle, prevAngle, 500);
         e.preventDefault();
         $(this).animate({
-          left: "900px",
+          left: "905px",
           opacity: 1
           }, {
-            duration: 1000,
+            duration: 500,
             queue: false
           });
         });
 
     </script>
 
+<div class="wrapper">
 
-    <a class="chat">
+</div>
+    <a href="#" class="chat">
       <%= image_tag "chat.png", height: "44px", width: "44px" %>
     </a>
+
+  <!-- $( document ).click(function() { -->
+  <script>
+  $( ".phone" ).mouseenter(function() {
+  $( ".phone-number" ).toggle( "slide");
+});
+  $( ".phone" ).mouseleave(function() {
+  $( ".phone-number" ).toggle( "slide");
+});
+</script>
+
+<div class="phone-number"><img src="/assets/phonenumber.png" class="phone-full" height="45px" /></div>
+
+<!-- <script>
+$( document ).click(function() {
+$( ".phone-number" ).show( "slide" );
+});
+</script> -->
 
     <a href="/about" class="about hvr-float-shadow">
       <%= image_tag "about.png", height: "50px", width: "50px" %>
@@ -163,6 +281,25 @@ $( document ).click(function() {
       <%= image_tag "certcontr.png", height: "55px", width: "55px" %>
     </a>
 
-    <a href="/payment" class="pay hvr-float-shadow">
-      <%= image_tag "pay.png", height: "53px", width: "53px" %>
-    </a></div>
+
+
+      <a href="/payment" class="pay hvr-float-shadow">
+        <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
+
+      </a>
+
+
+
+<!-- Title -->
+
+    <!-- <div id="wrapper">
+
+      <a href="/payment" class="pay hvr-float-shadow">
+        <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
+        <p class="title">
+          Payments
+        </p>
+      </a>
+
+    </div> -->
+  </div>
