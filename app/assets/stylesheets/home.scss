@@ -108,14 +108,13 @@
 .phone-number {
   position: absolute;
   top: 872px;
-  left: 900px;
+  left: 908px;
   display: none;
   cursor: pointer;
   font-family: 'Open Sans';
   font-size: 28px;
   color: rgb(68, 69, 67);
 }
-
 
 
 .thermal-img-title {
@@ -191,4 +190,82 @@
   top: 460px;
   left: 1425px;
   z-index: 20;
+}
+
+.auth
+.spi-authorized {
+  position: absolute;
+  top: 970px;
+  left: 170px;
+}
+
+.spi-authorized-title {
+  position: absolute;
+  top: 990px;
+  left: 280px;
+  font-size: 12px;
+}
+
+.project-title {
+  padding: 100px 0px 10px 69px;
+  position: relative;
+  font-family: 'Poiret One', cursive;
+  font-size: 38px;
+}
+
+.project-img {
+  display: inline;
+  margin: 10px 0px 20px 69px;
+}
+
+.project-category {
+  position: relative;
+  font-family: 'Raleway';
+  font-size: 22px;
+  display: inline;
+  text-align: left;
+  margin: 0px 0px 0px 69px;
+}
+
+.project-entry {
+  position: relative;
+  font-family: 'Raleway';
+  font-size: 22px;
+  text-align: right;
+  float: right;
+  display: inline;
+  margin: 0px 50px 0px 68px;
+}
+
+.project-button-container {
+  text-align: center;
+  margin: 0px 50px 100px 69px;
+}
+.project-button {
+    position: relative;
+    display: inline-block;
+
+    // margin: 40px 50px 50px 260px;
+
+  	color: #333;
+  	background-color: rgb(251, 245, 229);
+  	border: 1px solid #222;
+  	padding: 8px 20px;
+  	border-radius: 25px;
+    font-size: 14px;
+    // font-weight: bold;
+  	font-family: 'Oppen Sans', sans-serif;
+  	&:hover {
+  		text-decoration: none;
+  		background-color: #333;
+  		color: #fff;
+  		transition: 0.5s;
+  	}
+  }
+
+  .verticalLine {
+    position: absolute;
+    margin: 100px 700px 10px 700px;
+    border-left: thin solid #030303;
+    min-height: 2000px;
 }

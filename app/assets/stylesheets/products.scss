@@ -7,8 +7,8 @@
   top: 260px;
   left: 240px;
   &:hover {
-    filter: hue-rotate(180deg);
--webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(80deg);
+-webkit-filter: hue-rotate(80deg);
   }
 }
 
@@ -21,7 +21,7 @@
   font-family: 'Philosopher', sans-serif;
   color: rgb(96, 96, 96);
   &:hover {
-    color: darken(#f1c40f, 5%);
+    color: darken(#0c1fc7, 5%);
     transition: 0.5s;
   }
 }
@@ -115,4 +115,112 @@
   position: relative;
   top: 45px;
   left: 45px;
+}
+
+.supertherm-pic1 {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+
+.supertherm-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-3 {
+float: left;
+}
+
+.supertherm-4 {
+float: left;
+}
+
+.supertherm-5 {
+float: left;
+}
+
+.supertherm-6 {
+float: left;
+}
+
+.supertherm-7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-8 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-9 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.supertherm-10 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-11 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-12 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-13 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.supertherm-14 {
+float: left;
+}
+
+.supertherm-15 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.supertherm-16 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-17 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.supertherm-18 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supertherm-19 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

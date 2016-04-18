@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  *= require video-js
+ *= require jquery-ui
  */
 
 /* Option #1 */
@@ -33,11 +34,12 @@ img {
 }*/
 
 .container {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 0px 10px 10px;
 }
 
 body {
   background-image: url("bg2.jpg");
+  background-repeat: repeat-y;
 }
 
 .logo-text-link {
@@ -106,8 +108,8 @@ hr {
 }
 
 .supertherm:hover {
-  font-weight: bold;
-  color: #0c1fc7;
+  /*font-weight: bold;*/
+  /*color: #0c1fc7;*/
 }
 
 .rustgrip {
@@ -120,7 +122,6 @@ hr {
 }
 
 .rustgrip:hover {
-  font-weight: bold;
 }
 
 .hot-pipe {
@@ -133,7 +134,6 @@ hr {
 }
 
 .hot-pipe:hover {
-  font-weight: bold;
 }
 
 /*.product-database {
@@ -148,17 +148,62 @@ hr {
   left: 1799px;
 }*/
 
-.databaselayer {
+.magnifying-glass {
   position: absolute;
-  top: 163px;
-  left: 1799px;
+  top: 65px;
+  left: 1800px;
 }
 
-.product-database {
+.search-box {
+  position: absolute;
+  top: 65px;
+  left: 1475px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(242, 239, 231);
+  opacity: .2;
   display: none;
 }
 
-.database-layer3 {
+/*.databaselayer-container {
+    display: block;
+}*/
+
+.databaselayer {
+  position: absolute;
+  top: 173px;
+  left: 1799px;
+  z-index: 10;
+}
+
+.product-database-title {
+    position: absolute;
+    top: 184px;
+    left: 1685px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(74, 74, 74);
+    display: none;
+  }
+
+/*.databaselayer-container {
+  position: absolute;
+  top: 160px;
+  left: 1700px;
+  height: 210px;
+  width: 55px;
+  display: none;
+  z-index: -100;
+}*/
+
+/*.product-database {
+  display: none;
+}*/
+
+/*.database-layer3 {
   position: absolute;
   top: 156px;
   left: 1791px;
@@ -178,83 +223,80 @@ hr {
   top: 162px;
   left: 1791px;
   display: none;
-}
+}*/
 
-
-
-.magnifying-glass {
-  position: absolute;
-  top: 65px;
-  left: 1800px;
-}
-
-.search-box {
-  position: absolute;
-  top: 65px;
-  left: 1475px;
-  height: 40px;
-  width: 300px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: white;
-  display: none;
-}
 
 .chat {
   position: absolute;
   top: 1000px;
   left: 1790px;
   color: #d0e4fe;
+  z-index: 100;
 }
 
 .about {
   position: absolute;
   top: 1030px;
   left: 1230px;
+  z-index: 100;
 }
 
 .email {
   position: absolute;
   top: 1028px;
   left: 1145px;
-}
-
-.facebook {
-  position: absolute;
-  top: 1030px;
-  left: 1063px;
+  z-index: 100;
 }
 
 .tw {
   position: absolute;
   top: 1030px;
+  left: 1063px;
+  z-index: 100;
+}
+
+.facebook {
+  position: absolute;
+  top: 1030px;
   left: 977px;
+  z-index: 100;
 }
 
 .youtube {
   position: absolute;
   top: 1030px;
   left: 890px;
+  z-index: 100;
 }
 
 .links {
   position: absolute;
   top: 1030px;
   left: 807px;
+  z-index: 100;
 }
 
 .contractors {
   position: absolute;
   top: 1030px;
   left: 719px;
+  z-index: 100;
 }
 
 .pay {
+  /*margin: 800px 0px 10px 630px; */
   position: absolute;
   top: 1030px;
   left: 630px;
+  z-index: 100;
 }
 
+/*.pay:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}*/
 /* Title */
 
 /*#wrapper .title {

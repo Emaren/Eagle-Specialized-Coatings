@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'database/index'
+
+  get 'payments/show' 
+
+  get 'industry_links/show'
+
+  get 'certified_contractors/show'
+
+  get 'about/show'
+
   get 'products/supertherm'
 
   get 'products/rustgrip'

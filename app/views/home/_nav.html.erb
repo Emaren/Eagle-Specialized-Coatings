@@ -1,6 +1,9 @@
   <!-- Header -->
 
-  <div class="container"><div class="logo"> <a href="/" class="logo-text-link"><h1 class="logo-text">
+  <div class="container">
+
+    <div class="logo"> <a href="/" class="logo-text-link">
+      <h1 class="logo-text">
       Eagle Specialized Coatings
       <br><br>
       &
@@ -13,25 +16,39 @@
       <div class="logo-img2">
         <%= link_to image_tag("eagle_vanacalbl.png", height: "340px", width: "440px"), root_path %>
       </div>
-    </h1>
+      </h1>
+    </div>
+
+    <a href="/products/supertherm" class="supertherm hvr-underline-from-center">
+      SuperTHERM<sup>®</sup>
+    </div>
+
+    <a href="/products/rustgrip" class="rustgrip hvr-underline-from-center">
+      RustGRIP<sup>®</sup>
+    </a>
+
+    <a href="/products/hotpipe" class="hot-pipe hvr-underline-from-center">
+      Hot-Pipe COATING<sup>®</sup>
+    </a>
+
   </div>
 
-  <div class="supertherm hvr-underline-from-center">
-    <%= link_to "SuperTHERM®", products_supertherm_path %>
-  </div>
 
-  <a href="/products/rustgrip" class="rustgrip hvr-underline-from-center">
-    RustGRIP®
+
+
+  <a href="/database/index" class="databaselayer">
+    <!-- <%= image_tag "product_database_grey.png", size: "38x46" %> -->
+    <img src="/assets/product_database_grey.png" height="38px" width="46px" alt="" />
+
   </a>
 
-  <div class="hot-pipe hvr-underline-from-center">
-    <%= link_to "Hot-Pipe COATING®", products_hotpipe_path %>
-  </div>
 
+  <a href="/database/index" class="product-database-title">
+    <!-- Product Database -->
+    <%= image_tag "productdatabase.png", size: "145x20" %>
+  </a>
 
-
-
-  <div class="database-layer">
+  <!-- <div class="database-layer">
     <%= image_tag "layer1b.png", size: "55x55" %>
   </div>
   <div class="database-layer2">
@@ -40,10 +57,8 @@
   <div class="database-layer3">
     <%= image_tag "layer3.png", size: "55x55" %>
   </div>
-</div>
-  <div class="databaselayer-container"><div class="databaselayer">
-    <%= image_tag "product_database_grey.png", size: "38x46" %>
-</div>
+  </div>
+ -->
 
 <!-- <img class="xyz" data-alt-src="/assets/product_database_grey.png" src="/assets/layer2.png" height="46px" width="38px"/>
 <script type="text/javascript">
@@ -58,7 +73,7 @@ $(function () {
 });
 </script> -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
 $( ".databaselayer" ).mouseenter(function() {
   $( ".database-layer3" ).animate({
@@ -84,7 +99,7 @@ $( ".databaselayer" ).mouseleave(function() {
   }, 5000, "linear")
   $(this).show()
 });
-</script>
+</script> -->
 
   <!-- <script type="text/javascript">
   $(".databaselayer").mouseenter(function() {
@@ -137,37 +152,7 @@ $( ".databaselayer" ).mouseleave(function() {
   <div class="magnifying-glass">
     <%= link_to image_tag "mg.png", height: "40px", width: "40px" %>
   </div>
-    <script>
-      // $(".magnifying-glass").hover(function(){
-      //   $(this).animate({
-      //     left: "1600px",
-      //     height: "+=180px",
-      //     width: "=+180px",
-      //   }, {
-      //     duration: 500,
-      //   });
-      // });
-      // $(".magnifying-glass").hover(function(){
-      //   $(this).animate({
-      //     left: "1800px",
-      //   }, {
-      //     duration: 500,
-      //   });
-      // });
-      $( ".magnifying-glass" ).mouseenter(function() {
-  $( ".search-box" ).fadeIn( "slow", function() {
-    $(this).animate()
-    // Animation complete
-  });
-});
-      $( ".magnifying-glass" ).mouseleave(function() {
-  $( ".search-box" ).fadeOut( "slow", function() {
-    // Animation complete
-  });
-});
 
-
-    </script>
     <div class="search-box">
     </div>
 
@@ -178,86 +163,19 @@ $( ".databaselayer" ).mouseleave(function() {
   <!-- Footer -->
 
 
-  <div class="phone">
-    <%= link_to image_tag "phonenew.png", height: "90px", width: "90px" %>
-  </div>
-    <script>
-      $.fn.animateRotate = function(angle,prevAngle, duration, easing, complete) {
-          var args = $.speed(duration, easing, complete);
-          var step = args.step;
-          return this.each(function(i, e) {
-              args.complete = $.proxy(args.complete, e);
-              args.step = function(now) {
-                  $.style(e, 'transform', 'rotate(' + now + 'deg)');
-                  if (step) return step.apply(e, arguments);
-              };
-
-              $({deg: prevAngle}).animate({deg: angle}, args);
-          });
-      };
-      var angle = 0;
-      var prevAngle = 0;
 
 
-      $(".phone").mouseenter(function(e) {
-          prevAngle = angle
-          angle -= 100;
-          $(this).animateRotate(angle, prevAngle, 500);
-          e.preventDefault();
-          $(this).animate({
-            left: "800px",
-            opacity: 1
-          }, {
-            duration: 500,
-            queue: false
-          });
-      });
-      $(".phone").mouseleave(function(e) {
-        prevAngle = angle
-        angle += 100;
-        $(this).animateRotate(angle, prevAngle, 500);
-        e.preventDefault();
-        $(this).animate({
-          left: "905px",
-          opacity: 1
-          }, {
-            duration: 500,
-            queue: false
-          });
-        });
-
-    </script>
-
-<div class="wrapper">
-
-</div>
     <a href="#" class="chat">
       <%= image_tag "chat.png", height: "44px", width: "44px" %>
     </a>
 
-  <!-- $( document ).click(function() { -->
-  <script>
-  $( ".phone" ).mouseenter(function() {
-  $( ".phone-number" ).toggle( "slide");
-});
-  $( ".phone" ).mouseleave(function() {
-  $( ".phone-number" ).toggle( "slide");
-});
-</script>
 
-<div class="phone-number"><img src="/assets/phonenumber.png" class="phone-full" height="45px" /></div>
 
-<!-- <script>
-$( document ).click(function() {
-$( ".phone-number" ).show( "slide" );
-});
-</script> -->
-
-    <a href="/about" class="about hvr-float-shadow">
+    <a href="/about/show" class="about hvr-float-shadow">
       <%= image_tag "about.png", height: "50px", width: "50px" %>
     </a>
 
-    <a href="/email" class="email hvr-float-shadow">
+    <a href="mailto:president@eaglecoatings.net" class="email hvr-float-shadow">
       <%= image_tag "email.png", height: "55px", width: "55px" %>
     </a>
 
@@ -273,17 +191,17 @@ $( ".phone-number" ).show( "slide" );
       <%= image_tag "youtube.png", height: "53px", width: "53px" %>
     </a>
 
-    <a href="/industry_links"class="links hvr-float-shadow">
+    <a href="/industry_links/show" class="links hvr-float-shadow">
       <%= image_tag "links.png", height: "52px", width: "52px" %>
     </a>
 
-    <a href="/certified_contractors"class="contractors hvr-float-shadow">
+    <a href="/certified_contractors/show" class="contractors hvr-float-shadow">
       <%= image_tag "certcontr.png", height: "55px", width: "55px" %>
     </a>
 
 
 
-      <a href="/payment" class="pay hvr-float-shadow">
+      <a href="/payments/show" class="pay hvr-float-shadow">
         <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
 
       </a>
