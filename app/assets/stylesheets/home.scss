@@ -206,8 +206,19 @@
   font-size: 12px;
 }
 
+.band {
+  position: relative;
+  margin-bottom: 100px;
+  top: 250px;
+  left: -280px;
+  height: 100px;
+  width: 1920px;
+  background-color: black;
+}
+
 .project-title {
-  padding: 100px 0px 10px 69px;
+  margin-top: 10px;
+  padding: 100px 0px 20px 69px;
   position: relative;
   font-family: 'Poiret One', cursive;
   font-size: 38px;
@@ -215,31 +226,33 @@
 
 .project-img {
   display: inline;
+  float: left;
   margin: 10px 0px 20px 69px;
 }
 
 .project-category {
   position: relative;
   font-family: 'Raleway';
-  font-size: 22px;
+  font-size: 12px;
   display: inline;
   text-align: left;
-  margin: 0px 0px 0px 69px;
+  margin: 0px 0px 0px 20px;
 }
 
 .project-entry {
   position: relative;
   font-family: 'Raleway';
-  font-size: 22px;
+  font-size: 12px;
+  font-weight: 500;
   text-align: right;
   float: right;
   display: inline;
-  margin: 0px 50px 0px 68px;
+  margin: 0px 0px 0px 0px;
 }
 
 .project-button-container {
   text-align: center;
-  margin: 0px 50px 100px 69px;
+  margin: 50px 0px 100px 69px;
 }
 .project-button {
     position: relative;
@@ -263,9 +276,17 @@
   	}
   }
 
-  .verticalLine {
-    position: absolute;
-    margin: 100px 700px 10px 700px;
-    border-left: thin solid #030303;
-    min-height: 2000px;
+
+//   .verticalLine {
+//     position: absolute;
+//     margin: 100px 700px 10px 700px;
+//     border-left: thin solid #030303;
+//     min-height: 2000px;
+// }
+
+.a {
+  width: 50%;
+}
+.b {
+  width: 200%;
 }

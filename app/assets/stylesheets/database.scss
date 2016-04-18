@@ -5,14 +5,105 @@
 .database-container {
   position: absolute;
   top: 280px;
-  left: 270px;
+  left: 200px;
   font-family: 'Poiret One', cursive;
   font-size: 58px;
 }
 
 .database {
   text-align: center;
-  margin: 85px 400px 50px 150px;
-  font-family: 'Baskerville';
-  font-size: 28px;
+  margin: 70px 350px 50px 170px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+
+}
+
+.thermal-products {
+  position: absolute;
+  top: 260px;
+  left: 735px;
+  opacity: 0.05;
+  z-index: 1;
+  // margin: 10px 0px 0px 100px;
+}
+
+.thermal-database {
+  text-align: left;
+  position: absolute;
+  top: 400px;
+  left: 320px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.corrosion-database {
+  text-align: left;
+  position: absolute;
+  top: 400px;
+  left: 685px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.fire-database {
+  text-align: left;
+  position: absolute;
+  top: 399px;
+  left: 1055px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 200%;
+}
+
+.concrete-database {
+  text-align: left;
+  position: absolute;
+  top: 400px;
+  left: 1380px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.water-database {
+  text-align: left;
+  position: absolute;
+  top: 700px;
+  left: 320px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.architectural-database {
+  text-align: left;
+  position: absolute;
+  top: 700px;
+  left: 695px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.graffiti-database {
+  text-align: left;
+  position: absolute;
+  top: 700px;
+  left: 1055px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
+}
+
+.graffiti2-database {
+  text-align: left;
+  position: absolute;
+  top: 700px;
+  left: 1380px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 175%;
 }

@@ -174,7 +174,7 @@ hr {
 .databaselayer {
   position: absolute;
   top: 173px;
-  left: 1799px;
+  left: 1800px;
   z-index: 10;
 }
 
@@ -182,11 +182,15 @@ hr {
     position: absolute;
     top: 184px;
     left: 1685px;
+    color: rgb(74, 74, 74);
     text-align: center;
     font-size: 1.3em;
     font-family: 'Philosopher', sans-serif;
-    color: rgb(74, 74, 74);
     display: none;
+  }
+
+  a:visited {
+    color: rgb(74, 74, 74);
   }
 
 /*.databaselayer-container {

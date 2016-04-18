@@ -1,0 +1,64 @@
+#hpa {
+  position: absolute;
+  top: 760px;
+  left: 400px;
+  z-index: 2;
+}
+
+#hpb {
+  position: absolute;
+  top: 598px;
+  left: 675px;
+  z-index: 1;
+}
+
+#hpc {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  z-index: -1;
+}
+
+#hpd {
+  position: absolute;
+  top: 600px;
+  left: 1200px;
+  z-index: -1;
+}
+
+.hpe-c {
+  top: 1000px;
+  overflow: visible;
+}
+
+#hpe {
+  position: absolute;
+  top: 400px;
+  left: 1000px;
+
+  z-index: -2;
+}
+
+#hpf {
+  position: absolute;
+  top: 400px;
+  left: 800px;
+  z-index: -1;
+}
+
+#hpg {
+  position: absolute;
+  top: 750px;
+  left: 1235px;
+  z-index: -1;
+}
+
+.hot-pipe-band {
+  position: absolute;
+  margin-bottom: 10000px;
+  top: 1250px;
+  left: 0px;
+  height: 100px;
+  width: 1920px;
+  background-color: black;
+}

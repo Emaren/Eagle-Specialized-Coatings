@@ -5,14 +5,23 @@
 .payments-container {
   position: absolute;
   top: 280px;
-  left: 270px;
+  left: 200px;
   font-family: 'Poiret One', cursive;
   font-size: 58px;
 }
 
 .payments {
   text-align: center;
-  margin: 85px 400px 50px 150px;
-  font-family: 'Baskerville';
-  font-size: 28px;
+  margin: 70px 350px 50px 170px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.payments-background {
+  position: absolute;
+  top: 260px;
+  left: 685px;
+  opacity: 0.05;
+  z-index: 1;
 }

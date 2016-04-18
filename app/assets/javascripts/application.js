@@ -37,7 +37,7 @@
 
     $(".databaselayer").mouseenter(function() {
       $(this).animate({
-        left: "1636px",
+        left: "1645px",
         opacity: 1
         }, {
           duration: 450,
@@ -145,22 +145,22 @@
         $(".corrosion-vid").fadeOut(1000)
         $(".play-corrosion").fadeOut(1000)
         $(".fire-img-title").animate({
-          left: "+=515px"
+          left: "-=515px"
         }, 1000 );
         $(".fire-white").animate({
-          left: "+=515px"
+          left: "-=515px"
         }, 1000 );
         $(".fire-box").animate({
-          left: "+=515px"
+          left: "-=515px"
         }, 1000 );
         $(".fire-img").animate({
-          left: "+=515px"
+          left: "-=515px"
         }, 1000 );
         $(".fire-vid").animate({
-          left: "+=515px"
-        }, 1000 );
-        $(".play-thermal").animate({
-          left: "+=515px"
+          left: "-=515px"
+        }, 2000 );
+        $(".play-fire").animate({
+          left: "-=515px"
         }, 1000 );
       });
 
@@ -239,7 +239,7 @@
       })
 
       $(".corrosion-img").mouseenter(function(){
-        $(this).hide("explode", 2000);
+        $(this).hide("explode", 750);
       })
 
       $(".fire-img").hover(function(){

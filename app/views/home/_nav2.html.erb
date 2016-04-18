@@ -1,0 +1,218 @@
+<!-- Header -->
+
+<div class="container">
+
+  <div class="logo"> <a href="/" class="logo-text-link">
+    <h1 class="logo-text">
+    Eagle Specialized Coatings
+    <br><br>
+    &
+    <br><br>
+    Protected Environments
+    </a>
+    <div class="logo-img">
+      <%= link_to image_tag("eagle_vanacal.png", height: "340px", width: "440px"), root_path %>
+    </div>
+    <div class="logo-img2">
+      <%= link_to image_tag("eagle_vanacalbl.png", height: "340px", width: "440px"), root_path %>
+    </div>
+    </h1>
+  </div>
+
+  <a href="/products/supertherm" class="supertherm hvr-underline-from-center">
+    SuperTHERM<sup>®</sup>
+  </a>
+
+  <a href="/products/rustgrip" class="rustgrip hvr-underline-from-center">
+    RustGRIP<sup>®</sup>
+  </a>
+
+  <a href="/products/hotpipe" class="hot-pipe hvr-underline-from-center">
+    Hot-Pipe COATING<sup>®</sup>
+  </a>
+
+</div>
+
+
+
+
+<a href="/database/index" class="databaselayer">
+  <img src="/assets/product_database_grey.png" height="38px" width="36px" alt="" />
+</a>
+<a href="/database/index" class="product-database-title">
+    <%= image_tag "productdatabase.png", size: "145x20" %>
+</a>
+
+<!-- <div class="database-layer">
+  <%= image_tag "layer1b.png", size: "55x55" %>
+</div>
+<div class="database-layer2">
+  <%= image_tag "layer2.png", size: "55x55" %>
+</div>
+<div class="database-layer3">
+  <%= image_tag "layer3.png", size: "55x55" %>
+</div>
+</div>
+-->
+
+<!-- <img class="xyz" data-alt-src="/assets/product_database_grey.png" src="/assets/layer2.png" height="46px" width="38px"/>
+<script type="text/javascript">
+var sourceSwap = function () {
+var $this = $(this);
+var newSource = $this.data('alt-src');
+$this.data('alt-src', $this.attr('src'));
+$this.attr('src', newSource);
+}
+$(function () {
+$('img.xyz').hover(sourceSwap, sourceSwap);
+});
+</script> -->
+
+<!-- <script type="text/javascript">
+
+$( ".databaselayer" ).mouseenter(function() {
+$( ".database-layer3" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$( ".database-layer2" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$( ".database-layer" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$(this).hide()
+});
+$( ".databaselayer" ).mouseleave(function() {
+$( ".database-layer3" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$( ".database-layer2" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$( ".database-layer" ).animate({
+  opacity: "toggle"
+}, 5000, "linear")
+$(this).show()
+});
+</script> -->
+
+<!-- <script type="text/javascript">
+$(".databaselayer").mouseenter(function() {
+
+    $(".databaselayer").fadeOut({
+    }, {
+      duration: 500,
+    });
+
+    $('.database-layer').fadeIn({queue: false, duration: 'slow'});
+    $('.database-layer2').fadeIn({queue: false, duration: 'slow'});
+    $('.database-layer3').fadeIn({queue: false, duration: 'slow'});
+    $('.database-layer').animate({ up: "+=10px" }, 'slow');
+    $('.database-layer2').animate({ left: "-=10px" }, 'slow');
+    $('.database-layer3').animate({ up: "-=10px" }, 'slow');
+    $(".database-layer2").fadeIn({
+    }, {
+      duration: 500,
+    });
+    $(".database-layer3").fadeIn({
+    }, {
+      duration: 500,
+    });
+});
+$(".databaselayer").mouseleave(function() {
+
+    // $(this).fadeIn({
+    // }, {
+    //   duration: 500,
+    // });
+    $(".database-layer").fadeOut({
+    }, {
+      duration: 500,
+    });
+    $(".database-layer2").fadeOut({
+    }, {
+      duration: 500,
+    });
+    $(".database-layer3").fadeOut({
+    }, {
+      duration: 500,
+    });
+    $(".databaselayer").fadeIn({
+    }, {
+      duration: 500,
+    });
+});
+</script> -->
+
+<div class="magnifying-glass">
+  <%= link_to image_tag "mg.png", height: "40px", width: "40px" %>
+</div>
+
+  <div class="search-box">
+  </div>
+
+<hr>
+
+
+
+<!-- Footer -->
+
+
+
+
+  <!-- <a href="#" class="chat">
+    <%= image_tag "chat.png", height: "44px", width: "44px" %>
+  </a>
+
+
+
+  <a href="/about/show" class="about hvr-float-shadow">
+    <%= image_tag "about.png", height: "50px", width: "50px" %>
+  </a>
+
+  <a href="mailto:president@eaglecoatings.net" class="email hvr-float-shadow">
+    <%= image_tag "email.png", height: "55px", width: "55px" %>
+  </a>
+
+  <a href="https://www.facebook.com/" class="facebook hvr-float-shadow">
+    <%= image_tag "facebook.png", height: "52px", width: "52px" %>
+  </a>
+
+  <a href="https://twitter.com/?lang=en" class="tw hvr-float-shadow">
+    <%= image_tag "tw.png", height: "54px", width: "54px" %>
+  </a>
+
+  <a href="https://www.youtube.com/channel/UCERGEwuO7jKen536Drjfirw" class="youtube hvr-float-shadow">
+    <%= image_tag "youtube.png", height: "53px", width: "53px" %>
+  </a>
+
+  <a href="/industry_links/show" class="links hvr-float-shadow">
+    <%= image_tag "links.png", height: "52px", width: "52px" %>
+  </a>
+
+  <a href="/certified_contractors/show" class="contractors hvr-float-shadow">
+    <%= image_tag "certcontr.png", height: "55px", width: "55px" %>
+  </a>
+
+
+
+    <a href="/payments/show" class="pay hvr-float-shadow">
+      <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
+
+    </a> -->
+
+
+
+<!-- Title -->
+
+  <!-- <div id="wrapper">
+
+    <a href="/payment" class="pay hvr-float-shadow">
+      <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
+      <p class="title">
+        Payments
+      </p>
+    </a>
+
+  </div> -->
+</div>
