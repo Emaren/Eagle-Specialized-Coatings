@@ -2,6 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.nav-container {
+  position: relative;
+  padding: 10px 0px 10px 10px;
+
+}
+
+.main-container {
+  position: relative;
+  margin-top: -430px;
+}
+
+.footer-container {
+  position: relative;
+  margin-top: 650px;
+}
+
 .thermal-box {
   border: 1px solid black;
   /*border-radius: 5px;*/
@@ -20,12 +36,37 @@
   z-index: 5;
 }
 
+.thermal-img-title {
+  position: absolute;
+  top: 340px;
+  left: 370px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.thermal-white {
+  position: absolute;
+  top: 326px;
+  left: 251px;
+  background-color: white;
+  height: 55px;
+  width: 373px;
+}
+
 .thermal-vid {
   position: absolute;
   top: 381px;
   left: 251px;
   height: 10px;
   z-index: 0;
+}
+
+.play-thermal {
+  position: absolute;
+  top: 460px;
+  left: 392px;
+  z-index: 20;
 }
 
 .corrosion-box {
@@ -51,6 +92,32 @@
   top: 285px;
   left: 761px;
   z-index: 0;
+}
+
+
+.corrosion-img-title {
+  position: absolute;
+  top: 340px;
+  left: 861px;
+  z-index: 10;
+  font-family: "Trajan Pro";
+  font-size: 28px;
+}
+
+.corrosion-white {
+  position: absolute;
+  top: 326px;
+  left: 761px;
+  background-color: white;
+  height: 55px;
+  width: 373px;
+}
+
+.play-corrosion {
+  position: absolute;
+  top: 460px;
+  left: 910px;
+  z-index: 20;
 }
 
 .fire-img {
@@ -79,87 +146,13 @@
   z-index: 0;
 }
 
-.intro {
-  position: absolute;
-  top: 710px;
-  margin: 0px 100px 0px 100px;
-  text-align: center;
-  font-size: 27px;
-  line-height: 150%;
-  font-weight: 300;
-  color: grey;
-  color: black;
-  font-family: 'Raleway';
-  /*text-shadow:
- -1px -1px 0 white,
-  1px -1px 0 grey,
-  -1px 1px 0 grey,
-   1px 1px 0 grey;*/
-}
-
-.phone {
-  position: absolute;
-  top: 849px;
-  left: 915px;
-  cursor: pointer;
-  z-index: 100;
-}
-
-.phone-number {
-  position: absolute;
-  top: 872px;
-  left: 908px;
-  display: none;
-  cursor: pointer;
-  font-family: 'Open Sans';
-  font-size: 28px;
-  color: rgb(68, 69, 67);
-}
-
-
-.thermal-img-title {
-  position: absolute;
-  top: 340px;
-  left: 370px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
-}
-
-.thermal-white {
-  position: absolute;
-  top: 326px;
-  left: 251px;
-  background-color: white;
-  height: 55px;
-  width: 375px;
-}
-
-.corrosion-img-title {
-  position: absolute;
-  top: 340px;
-  left: 861px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
-}
-
-.corrosion-white {
-  position: absolute;
-  top: 326px;
-  left: 761px;
-  background-color: white;
-  height: 55px;
-  width: 375px;
-}
-
 .fire-white {
   position: absolute;
   top: 326px;
   left: 1271px;
   background-color: white;
   height: 55px;
-  width: 375px;
+  width: 373px;
 }
 
 .fire-img-title {
@@ -171,20 +164,6 @@
   font-size: 28px;
 }
 
-.play-thermal {
-  position: absolute;
-  top: 460px;
-  left: 392px;
-  z-index: 20;
-}
-
-.play-corrosion {
-  position: absolute;
-  top: 460px;
-  left: 910px;
-  z-index: 20;
-}
-
 .play-fire {
   position: absolute;
   top: 460px;
@@ -192,19 +171,23 @@
   z-index: 20;
 }
 
-.auth
-.spi-authorized {
+.intro {
   position: absolute;
-  top: 970px;
-  left: 170px;
+  top: 710px;
+  margin: 0px 100px 0px 100px;
+  text-align: center;
+  font-size: 27px;
+  line-height: 150%;
+  font-weight: 300;
+  color: grey;
+  color: black;
+  font-family: 'Raleway';
+  font-weight: 600;
 }
 
-.spi-authorized-title {
-  position: absolute;
-  top: 990px;
-  left: 280px;
-  font-size: 12px;
-}
+
+
+
 
 .band {
   position: relative;
@@ -260,20 +243,20 @@
 
     // margin: 40px 50px 50px 260px;
 
-  	color: #333;
-  	background-color: rgb(251, 245, 229);
-  	border: 1px solid #222;
-  	padding: 8px 20px;
-  	border-radius: 25px;
+        color: #333;
+        background-color: rgb(251, 245, 229);
+        border: 1px solid #222;
+        padding: 8px 20px;
+        border-radius: 25px;
     font-size: 14px;
     // font-weight: bold;
-  	font-family: 'Oppen Sans', sans-serif;
-  	&:hover {
-  		text-decoration: none;
-  		background-color: #333;
-  		color: #fff;
-  		transition: 0.5s;
-  	}
+        font-family: 'Open Sans', sans-serif;
+        &:hover {
+                text-decoration: none;
+                background-color: #333;
+                color: #fff;
+                transition: 0.5s;
+        }
   }
 
 

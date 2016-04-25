@@ -1,51 +1,62 @@
+<div class="footer-container">
 
+    <div class="phone">
+      <a href="#" >
+        <img src="/assets/phonenew.png" alt="" height="90px" width="90px" />
+      </a>
+    </div>
+
+    <div class="phone-number">
+      <a href="#">
+        <img src="/assets/phonenumber.png" class="phone-full" height="45px" />
+      </a>
+    </div>
 
     <a href="/database/index" class="chat">
       <%= image_tag "chat.png", height: "44px", width: "44px" %>
     </a>
 
+    <div id="about-wrapper"><a href="/about/show" class="about hvr-float-shadow">
+      <%= image_tag "about.png", height: "52px", width: "50px" %>
+    </a><p class="about-us-title">About Us</p></div>
 
-
-    <a href="/about/show" class="about hvr-float-shadow">
-      <%= image_tag "about.png", height: "50px", width: "50px" %>
-    </a>
-
-    <a href="mailto:president@eaglecoatings.net" class="email hvr-float-shadow">
+    <div id="contact-wrapper"><a href="mailto:president@eaglecoatings.net" class="contact hvr-float-shadow">
       <%= image_tag "email.png", height: "55px", width: "55px" %>
-    </a>
+    </a><p class="contact-us-title"> Contact </p></div>
 
-    <a href="https://www.facebook.com/" class="facebook hvr-float-shadow">
+    <div id="twitter-wrapper"><a href="https://twitter.com/?lang=en" class="tw hvr-float-shadow">
+        <%= image_tag "tw.png", height: "53px", width: "53px" %>
+    </a><p class="twitter-title">Twitter</p></div>
+
+    <div id="facebook-wrapper"><a href="https://www.facebook.com/" class="facebook hvr-float-shadow">
       <%= image_tag "facebook.png", height: "52px", width: "52px" %>
-    </a>
+    </a><p class="facebook-title">Facebook</p></div>
 
-    <a href="https://twitter.com/?lang=en" class="tw hvr-float-shadow">
-      <%= image_tag "tw.png", height: "54px", width: "54px" %>
-    </a>
-
-    <a href="https://www.youtube.com/channel/UCERGEwuO7jKen536Drjfirw" class="youtube hvr-float-shadow">
+    <div id="youtube-wrapper"><a href="https://www.youtube.com/channel/UCERGEwuO7jKen536Drjfirw" class="youtube hvr-float-shadow">
       <%= image_tag "youtube.png", height: "53px", width: "53px" %>
-    </a>
+    </a><p class="youtube-title">YouTube</p></div>
 
-    <a href="/industry_links/show"class="links hvr-float-shadow">
-      <%= image_tag "links.png", height: "52px", width: "52px" %>
-    </a>
+    <div id="industry-links-wrapper"><a href="/industry_links/show"class="links hvr-float-shadow">
+      <%= image_tag "links.png", height: "53px", width: "52px" %>
+    </a><p class="industry-links-title">Industry</p></div>
 
-    <a href="/certified_contractors/show"class="contractors hvr-float-shadow">
+    <div id="certified-contractors-wrapper"><a href="/certified_contractors/show"class="contractors hvr-float-shadow">
       <%= image_tag "certcontr.png", height: "55px", width: "55px" %>
-    </a>
+    </a><p class="certified-contractors-title">Contractors</p></div>
 
-
-
-      <a href="/payments/show" class="pay hvr-float-shadow">
+    <div id="pay-wrapper"><a href="/payments/show" class="pay hvr-float-shadow">
         <%= image_tag "pay.png", class: "hover", height: "53px", width: "53px" %>
-      </a>
+      </a><p class="pay-title">Pay</p></div>
 
       <a href="http://www.spicoatings.com/" class="auth">
       <img src="/assets/spi-authorized.png" alt="" class="spi-authorized" />
-      <div class="spi-authorized-title">
-      All products<br>
-      manufactured by
-      <br>
-      Superior Products<br>
-      International II, Inc.
+        <div class="spi-authorized-title">
+          All products<br>
+          manufactured by
+          <br>
+          Superior Products<br>
+          International II, Inc.
+        </div>
       </a>
+
+  </div>

@@ -1,28 +1,25 @@
 // Place all the styles related to the Database controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .database-container {
-  position: absolute;
-  top: 280px;
-  left: 200px;
+  position: relative;
+  margin: -130px 20px 0px 200px;
   font-family: 'Poiret One', cursive;
   font-size: 58px;
 }
 
 .database {
   text-align: center;
-  margin: 70px 350px 50px 170px;
+  margin: 70px 500px 50px 170px;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 150%;
-
 }
 
-.thermal-products {
-  position: absolute;
+.database-background {
+  position: fixed;
   top: 260px;
-  left: 735px;
+  left: 731px;
   opacity: 0.05;
   z-index: 1;
   // margin: 10px 0px 0px 100px;
@@ -30,9 +27,9 @@
 
 .thermal-database {
   text-align: left;
-  position: absolute;
-  top: 400px;
-  left: 320px;
+  position: relative;
+  margin: 100px 20px 100px 570px;
+
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 175%;
@@ -40,9 +37,9 @@
 
 .corrosion-database {
   text-align: left;
-  position: absolute;
-  top: 400px;
-  left: 685px;
+  position: relative;
+  margin: 100px 20px 100px 545px;
+
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 175%;
@@ -50,9 +47,9 @@
 
 .fire-database {
   text-align: left;
-  position: absolute;
-  top: 399px;
-  left: 1055px;
+  position: relative;
+  margin: 100px 20px 100px 545px;
+
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 200%;
@@ -60,39 +57,9 @@
 
 .concrete-database {
   text-align: left;
-  position: absolute;
-  top: 400px;
-  left: 1380px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  line-height: 175%;
-}
+  position: relative;
+  margin: 100px 20px 100px 545px;
 
-.water-database {
-  text-align: left;
-  position: absolute;
-  top: 700px;
-  left: 320px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  line-height: 175%;
-}
-
-.architectural-database {
-  text-align: left;
-  position: absolute;
-  top: 700px;
-  left: 695px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  line-height: 175%;
-}
-
-.graffiti-database {
-  text-align: left;
-  position: absolute;
-  top: 700px;
-  left: 1055px;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 175%;
@@ -100,10 +67,41 @@
 
 .graffiti2-database {
   text-align: left;
-  position: absolute;
-  top: 700px;
-  left: 1380px;
+  position: relative;
+  margin: 100px 20px -80px 545px;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   line-height: 175%;
+}
+
+.description {
+  display: inline;
+  position: absolute;
+  text-align: inherit;
+  left: 380px;
+  color: rgb(133, 134, 134);
+  word-wrap: break-word;
+  width: 23em;
+  vertical-align: text-top;
+  font-size: .9em;
+}
+
+.mid-temp {
+  font-size: .65em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.supertherm-db {
+  position: relative;
+  align-self: center;
+  // padding: 10px 10px 10px 10px;
+  height: 200px;
+  width: 900px;
+  border: 1px solid black;
+  :hover {
+    color: blue;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 10px 10px;
+  }
 }

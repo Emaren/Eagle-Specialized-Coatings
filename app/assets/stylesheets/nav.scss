@@ -1,0 +1,195 @@
+.logo-text-link {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-text a {
+  text-decoration: none;
+
+}
+
+.logo-text {
+  position: absolute;
+  font-family: cursive;
+  font-size: 27px;
+  text-align: center;
+  top: 10px;
+  left: 70px;
+  line-height: 90%;
+  color: black;
+  z-index: 0;
+  text-shadow:
+ -1px -1px 0 white,
+  1px -1px 0 grey,
+  -1px 1px 0 grey,
+   1px 1px 0 grey;
+}
+
+.logo-img {
+  position: absolute;
+  top: -80px;
+  left: -5px;
+  z-index: -1;
+}
+
+.logo-img2 {
+  position: absolute;
+  top: -80px;
+  left: -5px;
+  z-index: -2;
+}
+
+.logo {
+  padding-right: 1450px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 12.5em 3em;
+}
+
+.supertherm {
+  position: absolute;
+  top: 165px;
+  left: 580px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.supertherm:hover {
+  /*font-weight: bold;*/
+  /*color: #0c1fc7;*/
+}
+
+.rustgrip {
+  position: absolute;
+  top: 165px;
+  left: 960px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rustgrip:hover {
+}
+
+.hot-pipe {
+  position: absolute;
+  top: 165px;
+  left: 1280px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hot-pipe:hover {
+}
+
+/*.product-database {
+  position: absolute;
+  top: 165px;
+  left: 1800px;
+
+}*/
+/*.databaselayer-container {
+  position: absolute;
+  top: 163px;
+  left: 1799px;
+}*/
+
+.magnifying-glass {
+  position: absolute;
+  top: 65px;
+  left: 1800px;
+}
+
+.search-box {
+  position: absolute;
+  top: 65px;
+  left: 1475px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(242, 239, 231);
+  opacity: .2;
+  display: none;
+}
+
+/*.databaselayer-container {
+    display: block;
+}*/
+
+.databaselayer {
+  position: absolute;
+  top: 170px;
+  left: 1800px;
+  z-index: 10;
+}
+
+.product-database-title {
+    position: absolute;
+    top: 180px;
+    left: 1685px;
+    color: rgb(74, 74, 74);
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Philosopher', sans-serif;
+    display: none;
+  }
+
+  a:visited {
+    color: rgb(74, 74, 74);
+  }
+
+  /* Underline From Center */
+  .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    // position: relative;
+    overflow: hidden;
+  }
+
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #0c1fc7;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
+
+
+  

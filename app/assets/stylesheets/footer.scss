@@ -1,0 +1,300 @@
+.phone {
+position: absolute;
+top: 200px;
+left: 915px;
+cursor: pointer;
+z-index: 100;
+}
+
+.phone-number {
+position: absolute;
+top: 225px;
+left: 908px;
+display: none;
+cursor: pointer;
+font-family: 'Open Sans';
+font-size: 28px;
+color: rgb(68, 69, 67);
+}
+
+.spi-authorized {
+position: absolute;
+top: 270px;
+left: 170px;
+}
+
+.spi-authorized-title {
+position: absolute;
+top: 290px;
+left: 280px;
+font-size: 12px;
+}
+
+.pay {
+/*margin: 800px 0px 10px 630px; */
+position: absolute;
+top: 360px;
+left: 697px;
+z-index: 100;
+}
+
+.pay-title {
+position: absolute;
+top: 383px;
+left: 710px;
+z-index: 2000;
+font-size: 1em;
+text-align: center;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.contractors {
+position: absolute;
+top: 360px;
+left: 769px;
+z-index: 100;
+}
+
+.certified-contractors-title {
+position: absolute;
+top: 384px;
+left: 754px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.links {
+position: absolute;
+top: 360px;
+left: 838px;
+z-index: 100;
+}
+
+.industry-links-title {
+position: absolute;
+top: 383px;
+left: 833px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.youtube {
+position: absolute;
+top: 360px;
+left: 900px;
+z-index: 100;
+}
+
+.youtube-title {
+position: absolute;
+top: 383px;
+left: 894px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.facebook {
+position: absolute;
+top: 360px;
+left: 965px;
+z-index: 100;
+}
+
+.facebook-title {
+position: absolute;
+top: 382px;
+left: 956px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.tw {
+position: absolute;
+top: 360px;
+left: 1031px;
+z-index: 100;
+}
+
+.twitter-title {
+position: absolute;
+top: 382px;
+left: 1030px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.contact {
+position: absolute;
+top: 359px;
+left: 1095px;
+z-index: 100;
+}
+
+.contact-us-title {
+position: absolute;
+top: 383px;
+left: 1094px;
+z-index: 2000;
+font-size: 1em;
+display: none;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+}
+
+.about {
+position: absolute;
+top: 360px;
+left: 1160px;
+z-index: 100;
+}
+
+.about-us-title {
+position: absolute;
+top: 380px;
+left: 1152px;
+z-index: 2000;
+font-size: 1em;
+font-family: 'Nunito', sans-serif;
+line-height: 150%;
+display: none;
+}
+// #about-wrapper .about-us {
+//   position: absolute;
+//   top: 380px;
+//   left: 1000px;
+//   z-index: 200;
+//   font-size: 1em;
+//   visibility: hidden;
+//
+// }
+//
+// #about-wrapper:hover .about-us {
+//   visibility: visible;
+// }
+
+
+.chat {
+position: absolute;
+top: 300px;
+left: 1790px;
+color: #d0e4fe;
+z-index: 100;
+}
+
+// Without hvr-float-shadow
+
+// .phone {
+//   position: absolute;
+//   top: 200px;
+//   left: 915px;
+//   cursor: pointer;
+//   z-index: 100;
+// }
+//
+// .phone-number {
+//   position: absolute;
+//   top: 225px;
+//   left: 908px;
+//   display: none;
+//   cursor: pointer;
+//   font-family: 'Open Sans';
+//   font-size: 28px;
+//   color: rgb(68, 69, 67);
+// }
+//
+// .spi-authorized {
+//   position: absolute;
+//   top: 270px;
+//   left: 170px;
+// }
+//
+// .spi-authorized-title {
+//   position: absolute;
+//   top: 290px;
+//   left: 280px;
+//   font-size: 12px;
+// }
+//
+// .pay {
+//   /*margin: 800px 0px 10px 630px; */
+//   position: absolute;
+//   top: 360px;
+//   left: 696px;
+//   z-index: 100;
+// }
+//
+// .contractors {
+//   position: absolute;
+//   top: 360px;
+//   left: 766px;
+//   z-index: 100;
+// }
+//
+// .links {
+//   position: absolute;
+//   top: 360px;
+//   left: 835px;
+//   z-index: 100;
+// }
+//
+// .youtube {
+//   position: absolute;
+//   top: 360px;
+//   left: 900px;
+//   z-index: 100;
+// }
+//
+//
+// .facebook {
+//   position: absolute;
+//   top: 360px;
+//   left: 965px;
+//   z-index: 100;
+// }
+//
+// .tw {
+//   position: absolute;
+//   top: 360px;
+//   left: 1031px;
+//   z-index: 100;
+// }
+//
+// .email {
+//   position: absolute;
+//   top: 359px;
+//   left: 1095px;
+//   z-index: 100;
+// }
+//
+// .about {
+//   position: absolute;
+//   top: 360px;
+//   left: 1160px;
+//   z-index: 100;
+// }
+//
+// .chat {
+//   position: absolute;
+//   top: 300px;
+//   left: 1790px;
+//   color: #d0e4fe;
+//   z-index: 100;
+// }
