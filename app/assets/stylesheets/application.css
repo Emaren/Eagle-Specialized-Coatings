@@ -32,11 +32,28 @@
 img {
   display: inline-block;
 }*/
+/*nav {
 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-origin: content-box;
+}*/
 body {
-  background-image: url("bg2.jpg");
+  /*background-image: url("bg2.jpg");
   background-repeat: repeat-y;
-  width: 100%;
+  background-position: top;
+  width: 1206px;
+  height: 805px;*/
+/*background-repeat:no-repeat;*/
+
+/*background-size:contain;*/
+background: rgb(210, 210, 214) url("bg2.jpg") no-repeat center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 .hvr-float {
@@ -57,7 +74,11 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
+
+  body {
+    /*display: none;*/
+  }
 
   .logo-text-link {
     color: blue;

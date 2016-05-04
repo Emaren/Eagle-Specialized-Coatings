@@ -1,15 +1,15 @@
 .phone {
-position: absolute;
-top: 200px;
-left: 915px;
-cursor: pointer;
-z-index: 100;
+  position: relative;
+  text-align: center;
+  padding-top: 4%;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .phone-number {
 position: absolute;
-top: 225px;
-left: 908px;
+// top: 225px;
+// left: 908px;
 display: none;
 cursor: pointer;
 font-family: 'Open Sans';
@@ -17,68 +17,104 @@ font-size: 28px;
 color: rgb(68, 69, 67);
 }
 
+.spi {
+  position: relative;
+  margin: 0px 100px;
+  display: inline-block;
+}
+
 .spi-authorized {
-position: absolute;
-top: 270px;
-left: 170px;
+  position: absolute;
+  top: 0px;
+// left: 170px;
 }
 
 .spi-authorized-title {
-position: absolute;
-top: 290px;
-left: 280px;
-font-size: 12px;
+  // position: absolute;
+  position: relative;
+  top: 12px;
+  display: inline-block;
+  left: 110px;
+  font-size: 12px;
 }
 
-.pay {
-/*margin: 800px 0px 10px 630px; */
-position: absolute;
-top: 360px;
-left: 697px;
-z-index: 100;
+#pay-wrapper {
+  position: relative;
+  display: inline;
+  text-align: center;
+  // width: 8%;
+  // z-index: 100;
+  // margin: 0px 30px 0px 0px;
+  // position: relative;
+  // display: inline-block;
+  // text-align: center;
+  // top: -60px;
+  // left: 697px;
+  // z-index: 100;
 }
 
 .pay-title {
-position: absolute;
-top: 383px;
-left: 710px;
-z-index: 2000;
-font-size: 1em;
-text-align: center;
-display: none;
-font-family: 'Nunito', sans-serif;
-line-height: 150%;
+  position: relative;
+  display: inline-block;
+
+  // top: 253px;
+  // left: 710px;
+  z-index: 2000;
+  font-size: 1em;
+  text-align: center;
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  line-height: 150%;
 }
 
-.contractors {
-position: absolute;
-top: 360px;
-left: 769px;
-z-index: 100;
+#certified-contractors-wrapper {
+  position: relative;
+  // text-align: center;
+  // width: 9%;
+  // z-index: 100;
+  display: inline;
+  text-align: center;
+  // text-align: center;
+  // margin: 0px 30px 0px 0px;
+  // position: relative;
+  // display: inline-block;
+  // top: 0px;
+  // left: 769px;
+  // z-index: 100;
 }
 
 .certified-contractors-title {
-position: absolute;
-top: 384px;
-left: 754px;
-z-index: 2000;
-font-size: 1em;
-display: none;
-font-family: 'Nunito', sans-serif;
-line-height: 150%;
+  position: absolute;
+  display: inline-block;
+
+  // top: 254px;
+  // left: 754px;
+  z-index: 2000;
+  font-size: 1em;
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  line-height: 150%;
 }
 
-.links {
-position: absolute;
-top: 360px;
-left: 838px;
-z-index: 100;
+#industry-links-wrapper {
+  position: relative;
+  text-align: center;
+  width: 10%;
+  z-index: 100;
+  display: inline;
+  // position: relative;
+  // display: inline-block;
+  // top: 0px;
+  // left: 838px;
+  // z-index: 100;
 }
 
 .industry-links-title {
 position: absolute;
-top: 383px;
-left: 833px;
+display: inline-block;
+
+// top: 253px;
+// left: 833px;
 z-index: 2000;
 font-size: 1em;
 display: none;
@@ -87,17 +123,21 @@ font-family: 'Nunito', sans-serif;
 line-height: 150%;
 }
 
-.youtube {
-position: absolute;
-top: 360px;
-left: 900px;
+#youtube-wrapper {
+  position: relative;
+  display: inline-block;
+
+// top: 230px;
+// left: 900px;
 z-index: 100;
 }
 
 .youtube-title {
 position: absolute;
-top: 383px;
-left: 894px;
+display: inline-block;
+
+// top: 253px;
+// left: 894px;
 z-index: 2000;
 font-size: 1em;
 display: none;
@@ -105,17 +145,21 @@ font-family: 'Nunito', sans-serif;
 line-height: 150%;
 }
 
-.facebook {
-position: absolute;
-top: 360px;
-left: 965px;
+#facebook-wrapper {
+position: relative;
+display: inline-block;
+//
+// top: 230px;
+// left: 965px;
 z-index: 100;
 }
 
 .facebook-title {
 position: absolute;
-top: 382px;
-left: 956px;
+display: inline-block;
+
+// top: 252px;
+// left: 956px;
 z-index: 2000;
 font-size: 1em;
 display: none;
@@ -123,16 +167,17 @@ font-family: 'Nunito', sans-serif;
 line-height: 150%;
 }
 
-.tw {
-position: absolute;
-top: 360px;
-left: 1031px;
+#twitter-wrapper {
+  position: relative;
+  display: inline-block;
+  // top: 230px;
+// left: 1031px;
 z-index: 100;
 }
 
 .twitter-title {
 position: absolute;
-top: 382px;
+top: 252px;
 left: 1030px;
 z-index: 2000;
 font-size: 1em;
@@ -141,16 +186,17 @@ font-family: 'Nunito', sans-serif;
 line-height: 150%;
 }
 
-.contact {
-position: absolute;
-top: 359px;
-left: 1095px;
+#contact-wrapper {
+  position: relative;
+  display: inline-block;
+  // top: 230px;
+// left: 1095px;
 z-index: 100;
 }
 
 .contact-us-title {
 position: absolute;
-top: 383px;
+top: 253px;
 left: 1094px;
 z-index: 2000;
 font-size: 1em;
@@ -159,21 +205,23 @@ font-family: 'Nunito', sans-serif;
 line-height: 150%;
 }
 
-.about {
-position: absolute;
-top: 360px;
-left: 1160px;
+#about-wrapper {
+  position: relative;
+  display: inline-block;
+// top: 230px;
+// left: 1160px;
 z-index: 100;
 }
 
 .about-us-title {
 position: absolute;
-top: 380px;
+top: 250px;
 left: 1152px;
 z-index: 2000;
 font-size: 1em;
 font-family: 'Nunito', sans-serif;
 line-height: 150%;
+text-align: center;
 display: none;
 }
 // #about-wrapper .about-us {
@@ -192,11 +240,13 @@ display: none;
 
 
 .chat {
-position: absolute;
-top: 300px;
-left: 1790px;
-color: #d0e4fe;
-z-index: 100;
+  position: relative;
+// margin: 0px 100px 0px 100px;
+  float: right;
+  top: 30px;
+  left: -100px;
+  color: #d0e4fe;
+  z-index: 100;
 }
 
 // Without hvr-float-shadow

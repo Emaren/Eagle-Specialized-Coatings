@@ -4,177 +4,188 @@
 
 .nav-container {
   position: relative;
-  padding: 10px 0px 10px 10px;
-
+  height: 10%;
+  // margin: 50px 50px 0px 50px;
+  // left: 100px;
 }
 
 .main-container {
   position: relative;
-  margin-top: -430px;
+  height: 30%;
+  width: 100%;
+  // padding: 0px 0px 0px 0px;
+  // margin-top: -430px;
 }
 
 .footer-container {
   position: relative;
-  margin-top: 650px;
+  height: 70%;
+  margin: 0px 0px 0px 0px;
 }
 
+.documents-container {
+  // width: 1%;
+  // height: auto;
+}
+
+// .footer-container-main {
+//   position: fixed;
+//   margin-top: 0px;
+// }
+
+
 .thermal-box {
+  position: relative;
   border: 1px solid black;
-  /*border-radius: 5px;*/
   height: 300px;
   width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 250px;
-  box-shadow: 10px 10px 50px 5px;
+  display: inline-block;
+  float: left;
+  margin-left: 200px;
+  // top: 325px;
+  // left: 250px;
+  // box-shadow: 10px 10px 50px 5px;
 }
 
 .thermal-img {
   position: absolute;
-  top: 380px;
-  left: 251px;
+  top: 0px;
+  left: 551px;
   z-index: 5;
 }
 
 .thermal-img-title {
   position: absolute;
-  top: 340px;
-  left: 370px;
-  z-index: 10;
-  font-family: "Trajan Pro";
-  font-size: 28px;
+  // top: 340px;
+  // left: 370px;
+  // z-index: 10;
+  // font-family: "Trajan Pro";
+  // font-size: 28px;
 }
 
 .thermal-white {
   position: absolute;
-  top: 326px;
-  left: 251px;
-  background-color: white;
-  height: 55px;
-  width: 373px;
+  // top: 326px;
+  // left: 251px;
+  // background-color: white;
+  // height: 55px;
+  // width: 373px;
 }
 
 .thermal-vid {
   position: absolute;
-  top: 381px;
-  left: 251px;
-  height: 10px;
-  z-index: 0;
+  // top: 381px;
+  // left: 251px;
+  // height: 10px;
+  // z-index: 0;
 }
 
 .play-thermal {
   position: absolute;
+  display: inline-block;
   top: 460px;
   left: 392px;
   z-index: 20;
 }
 
 .corrosion-box {
-  border: 1px solid black;
-  /*border-radius: 5px;*/
+  position: relative;
+  display: inline-block;
   height: 300px;
   width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 760px;
+  margin: 0% 10%;
+  // margin-left: 30%;
+  border: 1px solid black;
+  /*border-radius: 5px;*/
   box-shadow: 10px 10px 50px 5px;
 }
 
 .corrosion-img {
   position: absolute;
-  top: 380px;
-  left: 761px;
+  display: inline;
   z-index: 5;
 }
 
 .corrosion-vid {
   position: absolute;
-  top: 285px;
-  left: 761px;
+  display: inline;
   z-index: 0;
 }
 
 
 .corrosion-img-title {
   position: absolute;
-  top: 340px;
-  left: 861px;
+  display: inline;
   z-index: 10;
   font-family: "Trajan Pro";
   font-size: 28px;
 }
 
 .corrosion-white {
+  display: inline-block;
   position: absolute;
-  top: 326px;
-  left: 761px;
   background-color: white;
   height: 55px;
   width: 373px;
 }
 
 .play-corrosion {
+  display: inline-block;
   position: absolute;
-  top: 460px;
-  left: 910px;
   z-index: 20;
 }
 
 .fire-img {
+  display: inline-block;
   position: absolute;
-  top: 380px;
-  left: 1271px;
   z-index: 5;
 }
 
 
 .fire-box {
+  float: right;
+  margin-right: 200px;
   border: 1px solid black;
   /*border-radius: 5px;*/
   height: 300px;
   width: 375px;
-  position: absolute;
-  top: 325px;
-  left: 1270px;
+  display: inline-block;
+  position: relative;
   box-shadow: 10px 10px 50px 5px;
   }
 
 .fire-vid {
+  display: inline-block;
   position: absolute;
-  top: 245px;
-  left: 1270px;
   z-index: 0;
 }
 
 .fire-white {
+  display: inline-block;
   position: absolute;
-  top: 326px;
-  left: 1271px;
   background-color: white;
   height: 55px;
   width: 373px;
 }
 
 .fire-img-title {
+  display: inline-block;
   position: absolute;
-  top: 340px;
-  left: 1430px;
   z-index: 10;
   font-family: "Trajan Pro";
   font-size: 28px;
 }
 
 .play-fire {
+  display: inline-block;
   position: absolute;
-  top: 460px;
-  left: 1425px;
   z-index: 20;
 }
 
 .intro {
-  position: absolute;
-  top: 710px;
-  margin: 0px 100px 0px 100px;
+  display: inline-block;
+  position: relative;
+  margin: 100px 100px 0px 100px;
   text-align: center;
   font-size: 27px;
   line-height: 150%;

@@ -1,6 +1,471 @@
+.logo {
+  position: relative;
+  width: 10%;
+  margin: -20px -20px;
+}
+
+.logo-text-container {
+  position: relative;
+  float: left;
+  top: 55px;
+  left: 77px;
+  width: 350px;
+}
+
 .logo-text-link {
   color: black;
+  z-index: -1;
 }
+
+.logo-text {
+  position: absolute;
+  top: -13px;
+  left: 30px;
+  font-size: 27px;
+  text-align: center;
+  line-height: 90%;
+  color: black;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 grey,
+  -1px 1px 0 grey,
+  1px 1px 0 grey;
+}
+
+.logo-img-container {
+
+}
+
+.logo-img {
+  position: absolute;
+  z-index: -2;
+  margin: 0px 0px 0px 90px;
+  height: auto;
+}
+
+.logo-img2 {
+  position: absolute;
+  z-index: -3;
+  margin: 0px 0px 0px 90px;
+  height: auto;
+}
+
+
+
+.nav-products {
+  position: relative;
+  display: inline;
+}
+
+.supertherm {
+  position: relative;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  top: 190px;
+  margin-left: 500px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rustgrip {
+  position: relative;
+  display: inline-block;
+  width: 29%;
+  text-align: center;
+  top: 190px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hot-pipe {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  top: 190px;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.magnifying-glass {
+  width: auto;
+  float: right;
+  // clear: both;
+  margin: 80px 100px 0px 0px;
+  z-index: -500;
+}
+
+.databaselayer {
+  width: auto;
+  float: right;
+  // clear: both;
+  margin: 190px -38px 0px 0px;
+  z-index: -500;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border-top: 1px solid black;
+  margin: 12.5em 3em 5em 3em;
+}
+
+
+
+
+@media (min-width:500px) and (max-width:1050px) {
+
+  .logo {
+    // position: absolute;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .nav-products {
+    display: block;
+  }
+
+
+  .supertherm {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 70px;
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .rustgrip {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .hot-pipe {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 130px;
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .logo-img {
+    // display: block;
+  }
+
+
+  .magnifying-glass {
+    width: auto;
+    float: right;
+    margin: 10px 100px 0px 0px;
+    z-index: -500;
+  }
+
+  .databaselayer {
+    width: auto;
+    float: right;
+    margin: 105px -38px 0px 0px;
+    z-index: -500;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid black;
+    margin: 7em 3em;
+  }
+
+}
+
+@media (min-width:1050px) and (max-width:1400px) {
+
+  .logo {
+    position: relative;
+  }
+
+  .nav-products {
+    display: inline;
+  }
+
+
+  .supertherm {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 70px;
+    margin-left: 170px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .rustgrip {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    margin-left: 170px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .hot-pipe {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    top: 130px;
+    margin-left: 170px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .logo-img {
+
+  }
+
+
+  .magnifying-glass {
+    width: auto;
+    float: right;
+    margin: 10px 100px 0px 0px;
+    z-index: -500;
+  }
+
+  .databaselayer {
+    width: auto;
+    float: right;
+    margin: 105px -38px 0px 0px;
+    z-index: -500;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid black;
+    margin: 8em 3em;
+  }
+
+}
+// @media (min-width:1200px) and (max-width:1349px) {
+//
+//   .logo {
+//     position: relative;
+//   }
+//
+//   .nav-products {
+//     display: inline;
+//   }
+//
+//
+//   .supertherm {
+//     position: relative;
+//     display: inline-block;
+//     width: 19%;
+//     text-align: center;
+//     top: 210px;
+//     margin-left: 400px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//   }
+//
+//   .rustgrip {
+//     position: relative;
+//     display: inline-block;
+//     width: 19%;
+//     text-align: center;
+//     top: 210px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//   }
+//
+//   .hot-pipe {
+//     position: relative;
+//     display: inline-block;
+//     width: auto;
+//     text-align: center;
+//     top: 210px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//   }
+//
+//   .logo-img {
+//
+//   }
+//
+//
+//   .magnifying-glass {
+//     width: auto;
+//     float: right;
+//     margin: 50px 100px 0px 0px;
+//     z-index: -500;
+//   }
+//
+//   .databaselayer {
+//     width: auto;
+//     float: right;
+//     margin: 105px -38px 0px 0px;
+//     z-index: -500;
+//   }
+//
+// }
+
+@media (min-width:1401px) and (max-width:1600px) {
+
+  .logo {
+    position: relative;
+  }
+
+  .nav-products {
+    display: inline;
+    width: 20%;
+  }
+
+
+  .supertherm {
+    position: relative;
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+    top: 210px;
+    margin-left: 450px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .rustgrip {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    top: 210px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .hot-pipe {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    top: 210px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .logo-img {
+    position: absolute;
+    z-index: -2;
+    height: auto;
+    margin: -50px 0px 0px 40px;
+  }
+
+}
+
+
+
+
+
+// .database {
+//   float: right;
+//   margin: 0px 0px 0px 0px;
+// }
+
+
+// .databaselayer {
+//   float: right;
+//
+// }
+
+.search-box {
+  float: right;
+  clear: both;
+  margin: 1em 4em;
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(242, 239, 231);
+  opacity: .2;
+  display: none;
+}
+
+// .databaselayer {
+//   float: right;
+//   clear: left;
+//   margin: 3em 1em;
+//   z-index: 10;
+// }
+
+// .product-database-title {
+//   float: right;
+//
+//   clear: right;
+//   margin: 6em 2em;
+//   color: rgb(74, 74, 74);
+//   text-align: center;
+//   font-size: 1.3em;
+//   font-family: 'Philosopher', sans-serif;
+//   display: none;
+// }
+
+a img[src="/assets/productdatabase.png"] {
+  float: right;
+
+  clear: right;
+  margin: 6em 2em;
+  color: rgb(74, 74, 74);
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+  display: none;
+}
+
+a img[src="/assets/product_database_grey.png"] {
+  float: right;
+  clear: both;
+  margin: 6em 2em;
+  z-index: 10;
+}
+
+
+// .nav-container {
+//   position: relative;
+//   // width: 100%;
+//   margin: 35px 50px 0px 50px;
+// }
+
+
 
 a:link {
   text-decoration: none;
@@ -11,144 +476,148 @@ a:visited {
   color: black;
 }
 
-.logo-text a {
-  text-decoration: none;
+// .logo-text a {
+//   text-decoration: none;
+//   width: 100%;
+//   height: 100%;
+// }
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+  // .magnifying-glass {
+  //   float: right;
+  //
+  // }
+  //
+  // .search-box {
+  //   float: right;
+  //   height: 40px;
+  //   width: 300px;
+  //   border: 1px solid black;
+  //   border-radius: 15px;
+  //   background-color: rgb(242, 239, 231);
+  //   opacity: .2;
+  //   display: none;
+  // }
+  //
+  // .product-database-title {
+  //   float: right;
+  //
+  //   color: rgb(74, 74, 74);
+  //   text-align: center;
+  //   font-size: 1.3em;
+  //   font-family: 'Philosopher', sans-serif;
+  //   display: none;
+  // }
 
 }
 
-.logo-text {
-  position: absolute;
-  font-family: cursive;
-  font-size: 27px;
-  text-align: center;
-  top: 10px;
-  left: 70px;
-  line-height: 90%;
-  color: black;
-  z-index: 0;
-  text-shadow:
- -1px -1px 0 white,
-  1px -1px 0 grey,
-  -1px 1px 0 grey,
-   1px 1px 0 grey;
-}
-
-.logo-img {
-  position: absolute;
-  top: -80px;
-  left: -5px;
-  z-index: -1;
-}
-
-.logo-img2 {
-  position: absolute;
-  top: -80px;
-  left: -5px;
-  z-index: -2;
-}
-
-.logo {
-  padding-right: 1450px;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid black;
-    margin: 12.5em 3em;
-}
-
-.supertherm {
-  position: absolute;
-  top: 165px;
-  left: 580px;
-  font-size: 30px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.supertherm:hover {
-  /*font-weight: bold;*/
-  /*color: #0c1fc7;*/
-}
-
-.rustgrip {
-  position: absolute;
-  top: 165px;
-  left: 960px;
-  font-size: 30px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.rustgrip:hover {
-}
-
-.hot-pipe {
-  position: absolute;
-  top: 165px;
-  left: 1280px;
-  font-size: 30px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.hot-pipe:hover {
-}
-
-/*.product-database {
-  position: absolute;
-  top: 165px;
-  left: 1800px;
-
-}*/
-/*.databaselayer-container {
-  position: absolute;
-  top: 163px;
-  left: 1799px;
-}*/
-
-.magnifying-glass {
-  position: absolute;
-  top: 65px;
-  left: 1800px;
-}
-
-.search-box {
-  position: absolute;
-  top: 65px;
-  left: 1475px;
-  height: 40px;
-  width: 300px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: rgb(242, 239, 231);
-  opacity: .2;
-  display: none;
-}
-
-/*.databaselayer-container {
-    display: block;
-}*/
-
-.databaselayer {
-  position: absolute;
-  top: 170px;
-  left: 1800px;
-  z-index: 10;
-}
-
-.product-database-title {
-    position: absolute;
-    top: 180px;
-    left: 1685px;
+  a:visited {
     color: rgb(74, 74, 74);
-    text-align: center;
-    font-size: 1.3em;
-    font-family: 'Philosopher', sans-serif;
-    display: none;
   }
+
+  // /* Underline From Center */
+  // .hvr-underline-from-center {
+  //   display: inline-block;
+  //   vertical-align: middle;
+  //   -webkit-transform: translateZ(0);
+  //   transform: translateZ(0);
+  //   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  //   -webkit-backface-visibility: hidden;
+  //   backface-visibility: hidden;
+  //   -moz-osx-font-smoothing: grayscale;
+  //   // position: relative;
+  //   overflow: hidden;
+  // }
+  //
+  // .hvr-underline-from-center:before {
+  //   content: "";
+  //   position: absolute;
+  //   z-index: -1;
+  //   left: 50%;
+  //   right: 50%;
+  //   bottom: 0;
+  //   background: #0c1fc7;
+  //   height: 2px;
+  //   -webkit-transition-property: left, right;
+  //   transition-property: left, right;
+  //   -webkit-transition-duration: 0.3s;
+  //   transition-duration: 0.3s;
+  //   -webkit-transition-timing-function: ease-out;
+  //   transition-timing-function: ease-out;
+  // }
+  //
+  // .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  //   left: 0;
+  //   right: 0;
+// }
+// @media screen and (max-width: 1600px) {
+
+
+
+@media screen and (min-width: 1800px) {
+
+//   .nav-products {
+//     position: relative;
+//
+//     width: 100%;
+//     margin: 0px 0px 0px 0px;
+//   }
+//
+//   .supertherm {
+//     position: relative;
+//     display: inline-block;
+//     padding: 0px 1px;
+//
+//     top: 155px;
+//     left: 500px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//   }
+//
+//   .rustgrip {
+//     position: relative;
+//     display: inline-block;
+//     padding: 0px 1px;
+//
+//     top: 155px;
+//     left: 655px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//     margin: 0px 10px 0px 50px;
+//   }
+//
+//   .hot-pipe {
+//     position: relative;
+//     display: inline-block;
+//     padding: 0px 1px;
+//
+//     top: 155px;
+//     left: 800px;
+//     font-size: 30px;
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//     margin: 0px 10px 0px 50px;
+//   }
+//
+//
+//   // hr {
+//   //     display: block;
+//   //     height: 1px;
+//   //     border: 0;
+//   //     border-top: 1px solid black;
+//   //     margin: 10em 1em;
+//   // }
+// }
 
   a:visited {
     color: rgb(74, 74, 74);
@@ -189,7 +658,4 @@ hr {
     left: 0;
     right: 0;
   }
-
-
-
-  
+}

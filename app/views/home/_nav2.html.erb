@@ -1,51 +1,90 @@
-<!-- Header -->
+<!-- <header>
+  <img src="eagle_vanacal.png" alt="" />
+  <img src="eagle_vanacalbl.png" alt="" />
 
-<div class="nav-container">
+  <nav>
+    <ul>
+      <li><a href="#">SuperTHERM<sup>®</sup></a></li>
+      <li><a href="#">RustGRIP<sup>®</sup></a></li>
+      <li><a href="#">Hot-Pipe COATING<sup>®</sup></a></li>
+    </ul>
+  </nav>
+</header> -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="nav-container"> -->
   <div class="logo">
-    <a href="/" class="logo-text-link">
-      <h1 class="logo-text">
-      Eagle Specialized Coatings
-      <br><br>
-      &
-      <br><br>
-      Protected Environments
-      </h1>
+
+    <div class="logo-text-container">
+      <a href="/" class="logo-text-link">
+        <h1 class="logo-text">
+          Eagle Specialized Coatings
+          <br><br>
+          &
+          <br><br>
+          Protected Environments
+        </h1>
+       </a>
+    </div>
+
+    <div class="logo-img-container">
+      <div class="logo-img">
+        <%= link_to image_tag("eagle_vanacal.png", height: "240px", width: "340px"), root_path %>
+      </div>
+      <div class="logo-img2">
+        <%= link_to image_tag("eagle_vanacalbl.png", height: "240px", width: "340px"), root_path %>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-products">
+    <a href="/products/supertherm" class="supertherm hvr-underline-from-center">
+      SuperTHERM<sup>®</sup>
     </a>
-    <div class="logo-img">
-      <%= link_to image_tag("eagle_vanacal.png", height: "340px", width: "440px"), root_path %>
-    </div>
-    <div class="logo-img2">
-      <%= link_to image_tag("eagle_vanacalbl.png", height: "340px", width: "440px"), root_path %>
-    </div>
+    <a href="/products/rustgrip" class="rustgrip hvr-underline-from-center">
+      RustGRIP<sup>®</sup>
+    </a>
+    <a href="/products/hotpipe" class="hot-pipe hvr-underline-from-center">
+      Hot-Pipe COATING<sup>®</sup>
+    </a>
   </div>
 
-  <a href="/products/supertherm" class="supertherm hvr-underline-from-center">
-    SuperTHERM<sup>®</sup>
-  </a>
+  <!-- <div class="search-container"> -->
 
-  <a href="/products/rustgrip" class="rustgrip hvr-underline-from-center">
-    RustGRIP<sup>®</sup>
-  </a>
+  <!-- <div class="magnifying-glass">
+</div> -->
 
-  <a href="/products/hotpipe" class="hot-pipe hvr-underline-from-center">
-    Hot-Pipe COATING<sup>®</sup>
-  </a>
+    <!-- <div class="search-box">
+    </div> -->
+    <div class="magnifying-glass">
+      <%= link_to image_tag "mg.png", height: "40px", width: "40px" %>
+    </div>
 
-  <a href="/database/index" class="databaselayer">
-    <img src="/assets/product_database_grey.png" height="38px" width="36px" alt="" />
-  </a>
-  <a href="/database/index" class="product-database-title">
+    <div class="databaselayer">
+      <%= link_to image_tag "product_database_grey.png", height: "40px", width: "40px" %>
+    </div>
+<!-- <br><br><br> -->
+    <hr>
+      <!-- <a href="/database/index" class="databaselayer">
+      <img src="/assets/product_database_grey.png" height="38px" width="36px" alt="" />
+    </a> -->
+
+    <!-- <a href="/database/index" class="product-database-title">
       <%= image_tag "productdatabase.png", size: "145x20" %>
-  </a>
+    </a> -->
+  <!-- </div> -->
 
-  <div class="magnifying-glass">
-    <%= link_to image_tag "mg.png", height: "40px", width: "40px" %>
-  </div>
 
-  <div class="search-box">
-  </div>
-
-  <hr>
-
-</div>
+<!-- </div> -->
